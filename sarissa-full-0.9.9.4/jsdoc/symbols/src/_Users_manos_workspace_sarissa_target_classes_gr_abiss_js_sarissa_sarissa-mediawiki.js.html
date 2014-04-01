@@ -1,0 +1,148 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"> <style>
+	.KEYW {color: #933;}
+	.COMM {color: #bbb; font-style: italic;}
+	.NUMB {color: #393;}
+	.STRN {color: #393;}
+	.REGX {color: #339;}
+	.linenumber {border-right: 1px dotted #666; color: #666; font-style: normal;}
+	</style></head><body><pre><span class='linenumber'>  1</span> <span class="COMM">/**
+<span class='linenumber'>  2</span>  * ====================================================================
+<span class='linenumber'>  3</span>  * About Sarissa: http://dev.abiss.gr/sarissa
+<span class='linenumber'>  4</span>  * ====================================================================
+<span class='linenumber'>  5</span>  * Sarissa cross browser XML library - IE XPath Emulation 
+<span class='linenumber'>  6</span>  * @version 0.9.9.4
+<span class='linenumber'>  7</span>  * @author: Copyright 2004-2008 Emmanouil Batsis, mailto: mbatsis at users full stop sourceforge full stop net
+<span class='linenumber'>  8</span>  *
+<span class='linenumber'>  9</span>  * This script depends on sarissa.js and provides an API for remote MediaWiki
+<span class='linenumber'> 10</span>  * JSON API calls.
+<span class='linenumber'> 11</span>  * 
+<span class='linenumber'> 12</span>  * @author: Copyright 2003-2008 Emmanouil Batsis, mailto: mbatsis at users full stop sourceforge full stop net
+<span class='linenumber'> 13</span>  * ====================================================================
+<span class='linenumber'> 14</span>  * Licence
+<span class='linenumber'> 15</span>  * ====================================================================
+<span class='linenumber'> 16</span>  * Sarissa is free software distributed under the GNU GPL version 2 (see &lt;a href="gpl.txt">gpl.txt&lt;/a>) or higher, 
+<span class='linenumber'> 17</span>  * GNU LGPL version 2.1 (see &lt;a href="lgpl.txt">lgpl.txt&lt;/a>) or higher and Apache Software License 2.0 or higher 
+<span class='linenumber'> 18</span>  * (see &lt;a href="asl.txt">asl.txt&lt;/a>). This means you can choose one of the three and use that if you like. If 
+<span class='linenumber'> 19</span>  * you make modifications under the ASL, i would appreciate it if you submitted those.
+<span class='linenumber'> 20</span>  * In case your copy of Sarissa does not include the license texts, you may find
+<span class='linenumber'> 21</span>  * them online in various formats at &lt;a href="http://www.gnu.org">http://www.gnu.org&lt;/a> and 
+<span class='linenumber'> 22</span>  * &lt;a href="http://www.apache.org">http://www.apache.org&lt;/a>.
+<span class='linenumber'> 23</span>  *
+<span class='linenumber'> 24</span>  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 
+<span class='linenumber'> 25</span>  * KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+<span class='linenumber'> 26</span>  * WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE 
+<span class='linenumber'> 27</span>  * AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+<span class='linenumber'> 28</span>  * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+<span class='linenumber'> 29</span>  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+<span class='linenumber'> 30</span>  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+<span class='linenumber'> 31</span>  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<span class='linenumber'> 32</span>  */</span><span class="WHIT">
+<span class='linenumber'> 33</span> 
+<span class='linenumber'> 34</span> </span><span class="COMM">/**
+<span class='linenumber'> 35</span>  * Class that can be used to perform queries against a MediaWiki instance 
+<span class='linenumber'> 36</span>  * @constructor
+<span class='linenumber'> 37</span>  * @requires Sarissa
+<span class='linenumber'> 38</span>  * @param {String} apiUrl the base API URL, e.g. &lt;a href="http://en.wikipedia.org/w/api.php" title="Link to Wikipedia's MediaWiki API Instance">http://en.wikipedia.org/w/api.php&lt;/a>
+<span class='linenumber'> 39</span>  * @param {Function} callback the callback function to use
+<span class='linenumber'> 40</span>  */</span><span class="WHIT"> 
+<span class='linenumber'> 41</span> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="NAME">SarissaMediaWikiContext</span><span class="PUNC">(</span><span class="NAME">apiUrl</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">arrLanguages</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'> 42</span> 	</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">apiUrl</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 43</span> 	</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="STRN">"json"</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 44</span> 	</span><span class="NAME">this.languages</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">arrLanguages</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 45</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 46</span> 
+<span class='linenumber'> 47</span> 
+<span class='linenumber'> 48</span> </span><span class="COMM">/**
+<span class='linenumber'> 49</span>  * Asynchronously obtain an article from the Wiki, then pass it to the given 
+<span class='linenumber'> 50</span>  * callback function as JSON data. This method does any required URL encoding for you.
+<span class='linenumber'> 51</span>  * @param {String} sFor the article name
+<span class='linenumber'> 52</span>  * @param {int} iLimit the maximum number of results to retreive
+<span class='linenumber'> 53</span>  */</span><span class="WHIT"> 
+<span class='linenumber'> 54</span> </span><span class="NAME">SarissaMediaWikiContext.prototype.doArticleGet</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'> 55</span> 	</span><span class="NAME">Sarissa.setRemoteJsonCallback</span><span class="PUNC">(</span><span class="WHIT">
+<span class='linenumber'> 56</span> 		</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 57</span> 			</span><span class="STRN">"?action=query&redirects&format="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 58</span> 			</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 59</span> 			</span><span class="STRN">"&prop=revisions&rvprop=content&titles="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 60</span> 			</span><span class="NAME">encodeURIComponent</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">)</span><span class="PUNC">,</span><span class="WHIT"> 
+<span class='linenumber'> 61</span> 		</span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 62</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 63</span> 
+<span class='linenumber'> 64</span> </span><span class="COMM">/**
+<span class='linenumber'> 65</span>  * Asynchronously obtain an article's backlinks from the Wiki, then pass those to the given 
+<span class='linenumber'> 66</span>  * callback function as JSON data. This method does any required URL encoding for you.
+<span class='linenumber'> 67</span>  * @param {String} sFor the article name
+<span class='linenumber'> 68</span>  * @param {int} iLimit the maximum number of results to retreive
+<span class='linenumber'> 69</span>  * @param {Function} callback the callback function to use
+<span class='linenumber'> 70</span>  */</span><span class="WHIT"> 
+<span class='linenumber'> 71</span> </span><span class="NAME">SarissaMediaWikiContext.prototype.doBacklinksGet</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">iLimit</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'> 72</span> 	</span><span class="NAME">Sarissa.setRemoteJsonCallback</span><span class="PUNC">(</span><span class="WHIT">
+<span class='linenumber'> 73</span> 		</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 74</span> 			</span><span class="STRN">"?&generator=backlinks&format="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 75</span> 			</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 76</span> 			</span><span class="STRN">"&gbllimit="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 77</span> 			</span><span class="NAME">iLimit</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 78</span> 			</span><span class="STRN">"&gbltitle"</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 79</span> 			</span><span class="NAME">encodeURIComponent</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">)</span><span class="PUNC">,</span><span class="WHIT"> 
+<span class='linenumber'> 80</span> 		</span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 81</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'> 82</span> 
+<span class='linenumber'> 83</span> </span><span class="COMM">/**
+<span class='linenumber'> 84</span>  * Asynchronously perform a Wiki Search, passing the results to the given 
+<span class='linenumber'> 85</span>  * callback function as JSON data. This method does any required URL encoding for you.
+<span class='linenumber'> 86</span>  * @param {String} sFor the terms to look for
+<span class='linenumber'> 87</span>  * @param {int} iLimit the maximum number of results to retreive
+<span class='linenumber'> 88</span>  * @param {Function} callback the callback function to use
+<span class='linenumber'> 89</span>  */</span><span class="WHIT"> 
+<span class='linenumber'> 90</span> </span><span class="NAME">SarissaMediaWikiContext.prototype.doSearch</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">iLimit</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'> 91</span> 	</span><span class="NAME">Sarissa.setRemoteJsonCallback</span><span class="PUNC">(</span><span class="WHIT">
+<span class='linenumber'> 92</span> 		</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 93</span> 			</span><span class="STRN">"?action=query&list=search&srsearch="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 94</span> 			</span><span class="NAME">encodeURIComponent</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 95</span> 			</span><span class="STRN">"&srwhat=text&srnamespace=0&format="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT">
+<span class='linenumber'> 96</span> 			</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 97</span> 			</span><span class="STRN">"&srlimit="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'> 98</span> 			</span><span class="NAME">iLimit</span><span class="PUNC">,</span><span class="WHIT"> 
+<span class='linenumber'> 99</span> 		</span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>100</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>101</span> 
+<span class='linenumber'>102</span> </span><span class="COMM">/**
+<span class='linenumber'>103</span>  * Asynchronously obtain the articles belonging to a category from the Wiki, 
+<span class='linenumber'>104</span>  * then pass those to the given callback function as JSON data. This method 
+<span class='linenumber'>105</span>  * does any required URL encoding for you.
+<span class='linenumber'>106</span>  * @param {String} sFor the article name
+<span class='linenumber'>107</span>  * @param {int} iLimit the maximum number of results to retreive
+<span class='linenumber'>108</span>  * @param {Function} callback the callback function to use
+<span class='linenumber'>109</span>  */</span><span class="WHIT"> 
+<span class='linenumber'>110</span> </span><span class="NAME">SarissaMediaWikiContext.prototype.doCategorySearch</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">iLimit</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'>111</span> 	</span><span class="NAME">Sarissa.setRemoteJsonCallback</span><span class="PUNC">(</span><span class="WHIT">
+<span class='linenumber'>112</span> 		</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>113</span> 			</span><span class="STRN">"?format="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>114</span> 			</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>115</span> 			</span><span class="STRN">"&list=categorymembers&action=query&cmlimit="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>116</span> 			</span><span class="NAME">iLimit</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>117</span> 			</span><span class="STRN">"&cmtitle=Category:"</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>118</span> 			</span><span class="NAME">encodeURIComponent</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">)</span><span class="PUNC">,</span><span class="WHIT"> 
+<span class='linenumber'>119</span> 		</span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>120</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>121</span> </span><span class="COMM">/**
+<span class='linenumber'>122</span>  * Asynchronously obtain the Wiki categories an article belongs to, 
+<span class='linenumber'>123</span>  * then pass those to the given callback function as JSON data. This method 
+<span class='linenumber'>124</span>  * does any required URL encoding for you.
+<span class='linenumber'>125</span>  * @param {String} sFor the article name
+<span class='linenumber'>126</span>  * @param {int} iLimit the maximum number of results to retreive
+<span class='linenumber'>127</span>  * @param {Function} callback the callback function to use
+<span class='linenumber'>128</span>  */</span><span class="WHIT"> 
+<span class='linenumber'>129</span> </span><span class="NAME">SarissaMediaWikiContext.prototype.doArticleCategoriesGet</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">iLimit</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">{</span><span class="WHIT">
+<span class='linenumber'>130</span> 	</span><span class="NAME">Sarissa.setRemoteJsonCallback</span><span class="PUNC">(</span><span class="WHIT">
+<span class='linenumber'>131</span> 		</span><span class="NAME">this.baseUrl</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>132</span> 			</span><span class="STRN">"?format="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>133</span> 			</span><span class="NAME">this.format</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>134</span> 			</span><span class="STRN">"&action=query&prop=categories&titles="</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="WHIT"> 
+<span class='linenumber'>135</span> 			</span><span class="NAME">encodeURIComponent</span><span class="PUNC">(</span><span class="NAME">sFor</span><span class="PUNC">)</span><span class="PUNC">,</span><span class="WHIT"> 
+<span class='linenumber'>136</span> 		</span><span class="NAME">callback</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>137</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='linenumber'>138</span> 
+<span class='linenumber'>139</span> 
+<span class='linenumber'>140</span> 
+<span class='linenumber'>141</span> </span></pre></body></html>

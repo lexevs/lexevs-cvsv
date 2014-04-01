@@ -1,0 +1,182 @@
+/*
+#loading-indicator {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+} */
+
+
+/* padding on top and bottom to account for the navbar and footer.  */
+body {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.container {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding:0; margin:0;
+}
+
+.list-inline {
+	padding-top: 12px;
+}
+
+.breadcrumb {
+  margin-bottom: 8px;
+}
+
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4,h5,h6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.panel-body {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.title-header{	
+	font-size: 45px;
+	
+}
+
+.title-content{	
+	font-size: 17px;
+	margin-bottom: 27px;
+	font-weight: 200;
+}
+
+.panel-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Padding around the search form on the main page. */
+#createDefinitionButton,
+#mainPageSearch {
+    padding: 10px 8px;
+}
+
+/* Spacing around the search text box on the search view. */
+#searchResultsSearchArea {
+    margin-top: 5px;
+    margin-bottom:10px;
+}
+
+/* Padding around panels for the definition sections. */
+.outerDefinitionPanel {
+    margin: 3px;
+    padding: 3px;
+}
+
+.defintionPanelBody {
+    padding: 5px;
+}
+
+/* Padding around the inner panels for the definition sections. */
+.outerDefinitionPanelBody {
+    padding: 2px;
+}
+
+/* Padding around the divs within panels for the definition sections. */
+.divDefinitionPanel {
+    padding: 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* Padding around the outer div that encapsulates the inner panels for the definition sections. */
+.divOuterDefinitionPanel {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* for the buttons at the top of the definition page. */
+#definitionDetailsButtons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* for the headings on the definition page. */
+.definitionHeading {
+  background-color: #f1f1f1;
+}
+
+.definitionTitle {
+   font-size: 20px;
+}
+
+/* static data displayed on the definition details page. */
+#staticDefinitionTableData {
+    margin-bottom: 0px;
+    background-color: #f1f1f1;
+}
+
+.form-horizontal .form-control-static {
+  padding-top: 2px;
+}
+
+.form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  padding-top: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+
+/* For validation plug-in, set the success color to be black, not green. */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+  color: #333;
+}
+
+/* For validation plug-in, set the success color to be black, not green. */
+.has-success .form-control{
+  border-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+/* Wait cursor */
+div#wrapper.wait * {
+    cursor: wait !important;
+}
+
+.placeholder { color: #aaa; }
+
+#cts2SearchModal .modal-dialog{
+    width: 700px; /* respsonsive width */
+}
+
+.reqProperty {
+	color: #c12e2a;
+}
+
+.savingProgressMessage {
+	margin-top: 5px;
+	padding-top: 5px;
+}

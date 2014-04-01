@@ -1,0 +1,44 @@
+<!-- Table to display the Value Sets -->
+<p class="lead"><strong>Value Sets</strong></p>
+
+
+<div class="well" id="loading-indicator-value-sets" style="display:none">
+    <img src="img/loading.gif"/>
+    <strong>Loading Value Sets...</strong>
+</div>
+
+<div id="valueSetsTableDiv">
+    <table class="table table-striped table-bordered table-hover table-condensed" id="valueSetsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <% if (data != null) { %>
+                <%_.each(data.ValueSetCatalogEntryDirectory.entry,function(entry){%>
+                    <tr>
+                        <td class="vsName" data-value="<%= entry.valueSetName %>"><%= entry.valueSetName %></td>
+                        <td>
+                            <% if (entry.resourceSynopsis != null) { %>
+                                <%= entry.resourceSynopsis.value %>
+                            <% } %>
+                        </td>
+
+                        <td class="vsHref" data-value="<%= entry.href %>">
+                            <a href="<%= entry.href %>" target="_blank"
+                                <button class="btn btn-primary btn-xs downloadValueSet" data-id="someId">
+                                    <span class="glyphicon glyphicon-download"></span> Download
+                                </button>
+                            </a>
+                        </td>
+                    </tr>
+                <% }); %>
+            <% } %>
+        </tbody>
+
+    </table>
+</div>
