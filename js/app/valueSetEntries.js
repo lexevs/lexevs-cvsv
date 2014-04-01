@@ -8,8 +8,7 @@ function getValueSetEntries(href, name) {
     }
 
     var data = null;
-    var url = href + App.valueSetEntryParameters;
-
+    var url = href + App.valueSetEntryParameters
     console.log(url);
 
     // Show busy/loading indicator

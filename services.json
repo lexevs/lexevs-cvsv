@@ -1,5 +1,5 @@
 [
-    {"serviceName":"LexEVS 6.1", "serviceUrl":"http://bmidev4:5555/cts2", "cts2Version" : ""},
+    {"serviceName":"LexEVS 6.1", "serviceUrl":"http://r0223758.mayo.edu:8080/lexevscts2", "cts2Version" : "1.1"},
     {"serviceName":"TLAMP", "serviceUrl":"http://informatics.mayo.edu/cts2/services/tlamp", "cts2Version" : "1.1"},
     {"serviceName":"NLM", "serviceUrl":"http://informatics.mayo.edu/vsmc/cts2", "cts2Version" : ""}
 ]

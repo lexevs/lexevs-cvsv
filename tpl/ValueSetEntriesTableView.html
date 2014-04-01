@@ -23,7 +23,10 @@
                     var codeSystem = "";
                     var codeSystemVersion = "";
                     var resolutionInfo = data.IteratableResolvedValueSet.resolutionInfo;
-                    if (resolutionInfo.resolvedUsingCodeSystem.length > 0) {
+                    if (resolutionInfo.resolvedUsingCodeSystem !== undefined &&
+                        resolutionInfo.resolvedUsingCodeSystem !== null &&
+                        resolutionInfo.resolvedUsingCodeSystem.length > 0) {
+
                         var resolvedUsingCodeSystem = resolutionInfo.resolvedUsingCodeSystem[0];
 
                         codeSystem = resolvedUsingCodeSystem.codeSystem.content;

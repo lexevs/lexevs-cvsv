@@ -22,7 +22,7 @@ var App = {
 
     //valueSetParameters : '/valuesets?maxtoreturn=20&callback=?',
     valueSetParameters : '/valuesets?maxtoreturn=20&format=json&callback=?',
-    valueSetEntryParameters : '/definition/1/resolution?maxtoreturn=100',
+    valueSetEntryParameters : '?maxtoreturn=100&format=json&callback=?',
 
     valueSetEntriesTitle : "Value Set Entries",
 
