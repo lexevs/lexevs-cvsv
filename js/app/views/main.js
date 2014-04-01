@@ -8,6 +8,9 @@ App.MainView = Backbone.View.extend({
     },
 
     postRender : function() {
+
+        var $self = this;
+
         // get the CTS2 services to use from a file and populate the dropdown.
         $.getJSON("services.json", function( services ) {
             var servicesSelect = $("#cts2Services");
@@ -20,11 +23,21 @@ App.MainView = Backbone.View.extend({
 
         });
 
-        // initialize the button setting it disabled
+        // initialize the button setting and search to disabled
         $('#cts2ServiceInfo').prop('disabled', true);
+        $('#cts2SearchButton').prop('disabled', true);
 
-        $('#cts2ServiceInfo').click(function () {
-            getServiceInformation();
+        // listen for when the search button is clicked
+        $('#cts2SearchButton').click(function () {
+            $self.doSearch();
+        });
+
+        // listen for when the user clicks enter in the search box
+        $('#cts2SearchText').keyup(function(e){
+            if(e.keyCode == 13)
+            {
+                $self.doSearch();
+            }
         });
 
         // User selected a different CTS2 Service
@@ -34,14 +47,23 @@ App.MainView = Backbone.View.extend({
             App.selectedServiceUrl =  $("#cts2Services").val();
             App.selectedServiceVersion =  $("#cts2Services :selected").data('value');
 
-            // Update the service info button, enable if a service is selected.
+            // Update the service info button and search, enable if a service is selected.
             $('#cts2ServiceInfo').prop('disabled', App.selectedServiceUrl.length <= 0);
+            $('#cts2SearchButton').prop('disabled', App.selectedServiceUrl.length <= 0);
 
-            getValueSets();
+            // Empty the value sets table
+            renderEmptyValueSetTable();
+            // Empty the value set entries table
             populateValueSetEntriesTable(null, null);
         });
 
         renderEmptyValueSetTable();
         renderEmptyValueSetEntriesTable();
+    },
+
+    doSearch : function() {
+        getValueSets();
+        populateValueSetEntriesTable(null, null);
     }
+
 }); 

@@ -11,11 +11,10 @@ function getValueSets() {
         // Show busy/loading indicator
         showLoadingIndicatorForValueSets(true);
 
-        url = url +  App.valueSetParameters;
+        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + App.valueSetParameters;
         console.log(url);
 
         $.getJSON(url, function(data) {
-
         })
             // success
             .done(function(data) {
