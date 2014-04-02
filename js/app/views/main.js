@@ -40,6 +40,10 @@ App.MainView = Backbone.View.extend({
             }
         });
 
+        $('#cts2ServiceInfo').click(function () {
+            getServiceInformation();
+        });
+
         // User selected a different CTS2 Service
         $("#cts2Services").change(function() {
 
