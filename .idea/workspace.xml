@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/LICENSE.TXT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xslt/combinedXml10to11.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-ixslt2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-ixslt2.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lexevs-cvsv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397485675136" ignored="false" />
+    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397485937880" ignored="false" />
     <file path="/README.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396357703754" ignored="false" />
     <file path="/ValueSetsTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397063657653" ignored="false" />
     <file path="/ValueSetEntriesTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396385461308" ignored="false" />
@@ -491,7 +480,11 @@
       <created>1397485685782</created>
       <updated>1397485685782</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added files to Git.">
+      <created>1397485946939</created>
+      <updated>1397485946939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -567,7 +560,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to request CTS2 1.0 XML and convert to CTS2 1.1 XML and then to CTS2 JSON on the client." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files to Git." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -586,6 +579,7 @@
     <MESSAGE value="Added ability to search." />
     <MESSAGE value="Fixed the &quot;Service Info&quot; button to work again." />
     <MESSAGE value="Added ability to request CTS2 1.0 XML and convert to CTS2 1.1 XML and then to CTS2 JSON on the client." />
+    <MESSAGE value="Added files to Git." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -612,13 +606,6 @@
     <entry file="file://$PROJECT_DIR$/xslt/CTS2ConversionUtils.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="49" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.41009465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/m-xml.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="48" selection-start="2250" selection-end="2250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
