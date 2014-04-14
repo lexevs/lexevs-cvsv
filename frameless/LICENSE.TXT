@@ -1,0 +1,241 @@
+FRAMELESS LICENSE AGREEMENT
+
+   THIS IS A LEGAL DOCUMENT BETWEEN YOU AND FRAMELESS B.V. BY DOWNLOADING,
+   INSTALLING, OR OTHERWISE USING FRAMELESS SOFTWARE, YOU AGREE TO BE
+   BOUND BY THE TERMS OF THIS FRAMELESS LICENSE AGREEMENT WHETHER OR NOT
+   YOU DECIDE TO PURCHASE THE SOFTWARE. IF YOU DO NOT AGREE, YOU ARE NOT
+   LICENSED TO USE THE SOFTWARE, AND YOU MUST DESTROY ANY COPIES OF
+   FRAMELESS SOFTWARE IN YOUR POSSESSION OR CONTROL. FRAMELESS THANKS YOU
+   FOR TAKING THE TIME TO READ AND UNDERSTAND THIS LICENSE AGREEMENT.
+
+   This Frameless License Agreement is a legal document between You and
+   Frameless BV, a private limited liability company under Dutch law, with
+   its principal place of business at Graaf Adolflaan 52, 3818 DD
+   Amersfoort, the Netherlands (“Frameless”). The Frameless License
+   Agreement applies to Frameless Software, upgrades and support services.
+
+1. Evaluation License
+
+   Before purchasing Frameless Software, You are invited to install and
+   execute Frameless Software free of charge (for a period of 30 days from
+   the date of Download) for evaluation testing and demonstration purposes
+   and for determining whether Frameless Software meets Your requirements
+   and whether You desire to continue using Frameless Software.
+
+   On or before expiry of the thirty days period you may choose to:
+     * continue to use Frameless Software for production purpose and pay
+       the appropriate Yearly Subscription Fee for Developer License, as
+       described in Section 3, and/or
+     * continue to use Frameless Software under the license for Personal
+       and Non-Commercial use as described in Section 2, or
+     * terminate the license in accordance with Section 10.
+
+   Any version of Frameless Software labeled “Pre-release” or “Beta” are
+   provided to you under Section 1 Evaluation License.
+
+   If you provide any feedback to Frameless regarding the evaluation or
+   testing of Frameless Software, you grant to Frameless the irrevocable
+   right to use, copy and distribute such feedback.
+
+   Evaluation License is provided “As is” without any warranty or support
+   of any kind.
+
+2. Personal and Non-Commercial License
+
+   You may, without paying a yearly subscription fee, use Frameless
+   Software for the purpose(s) of developing, testing, prototyping and/or
+   demonstrating website(s) for your personal and non-commercial use. In
+   such case, Frameless Software is made available “As Is” without
+   warranty or support of any kind.
+
+   You may not use Frameless Software for creating websites or developing
+   and/or distributing applications as part of commercial or
+   revenue-generating business activities or other work-related use of the
+   Software. If you intend to do so, You must pay the appropriate
+   subscription fees and comply with the term of this Frameless License
+   Agreement.
+
+3. Developer License
+
+   Subject to the payment of the appropriate yearly subscription fee for
+   Developer License, You may during the subscription term:
+
+   a) install and use Frameless Software for the number of named
+   developers paid for as described in the Order Form. A named developer
+   is a distinct person who can be an employee, an independent contractor
+   or another temporary worker you authorized to use Frameless Software
+   while performing his duties within the scope of their employment or
+   assignment.
+
+   and
+
+   b) copy and distribute Frameless Software solely as part of a website
+   You have created under the conditions provided below:
+     * website must be content which is transferred over http or https
+       protocol;
+     * before installing and using Frameless Software, the recipient of
+       the website must agree to license terms that protect Frameless
+       Software at least as much as this Frameless License Agreement and
+       in particular not to use Frameless Software other than as part of
+       the website provided.
+     * you will remain solely responsible to the website recipient for
+       support, service, you will remain solely responsible to the website
+       recipient for support, service, upgrades, or technical or other
+       assistance.
+
+4. Acknowledgment of Frameless Intellectual Property Rights
+
+   Frameless Software is licensed, not sold. All right, title, and
+   interest in and to Frameless Software shall remain with Frameless or
+   its licensors. Frameless Software is protected by applicable copyright
+   and other intellectual property laws and treaties.
+
+5. Copy and Back-Up
+
+   You may copy the Frameless Software solely for back-up and archival
+   purposes.
+
+6. Prohibited Use
+
+   Any use of Frameless Software other than explicitly permitted in this
+   Frameless License Agreement is prohibited.
+
+   In particular, you may not attempt to (or permit others to):
+     * distribute, incorporate or combine with other software in
+       particular in any manner that would subject Frameless Software to
+       the terms of a free software or open source license; and
+     * create any derivative work of Frameless Software or any software
+       product that directly or indirectly competes with Frameless
+       Software by utilizing or incorporating Frameless Software.
+     * lend, rent, lease, sublicense, transfer your right, distribute,
+       outsource or otherwise transfer Frameless Software, or any portions
+       of Frameless Software to anyone except to the limited extent
+       specified in Section 3; and
+     * reverse-engineer, decompile, disassemble, modify, incorporate or
+       combine with other software, translate, make any attempt to
+       discover the source code of Frameless Software.
+
+7. Support
+
+   As part of the paid Yearly Subscription Fee, You will be entitled to
+   receive support for Frameless Software in accordance with the support
+   policy available online.
+
+   Frameless will retain at any time the right to amend the terms and
+   conditions of Support.
+
+8. Download
+
+   Frameless Software and any upgrade is made available by download at
+   http://frameless.io/
+
+9. Subscription Fees and Payment
+
+   Yearly Subscription Fees are for one year and based on the number of
+   named developer specified in the applicable order form.
+
+   Named Developer cannot be replaced during a subscription term. Any
+   additional named developers added during a subscription term will be
+   charged for the monthly period remaining in the current subscription
+   term set for in the order form.
+
+   Except as otherwise set forth in an order form, the Subscription term
+   shall automatically renew for additional one year term, unless either
+   parties gives the other written notice of non renewal at least 30 days
+   prior to the end of the subscription term. All renewal subscription
+   fees will be due annually on the applicable anniversary date and any
+   pricing for subscription changes will be reflected on the invoice.
+   Frameless reserves the right to modify the fees set forth in an order
+   form in connection with subscription renewal of such order form by
+   noticing you at least 60 days prior to the end of the subscription
+   term.
+
+   Subscription fees are excluding of VAT and all withholding and other
+   taxes.
+
+   Invoices shall be due and payable in full within thirty (30) days from
+   date of invoice.
+
+   If you fail to pay the fees due within the period agreed to, legal
+   trade interest shall be due on the outstanding amounts from the date of
+   invoice.
+
+10. Term/Termination
+
+   The term of this license is dependent upon the number of subscription
+   years you purchase. The term commences on the date of your order and
+   terminates one or more calendar years thereafter, subject to compliance
+   with the terms of this Frameless License Agreement.
+
+   If You fail to comply with the terms and conditions of this Frameless
+   License Agreement, this Agreement and your right and license to use
+   Frameless Software will terminate immediately.
+
+   Upon the termination of this Frameless License Agreement, You must
+   cease using Frameless Software and destroy any copy of Frameless
+   Software in your possession.
+
+   Section 4, 6, 12, 13, 14 and the obligation to make a payment of any
+   outstanding, unpaid fees shall survive termination or expiration of
+   this Frameless License Agreement.
+
+   All licenses you have granted under Section 3 to Your website
+   recipient, provided they are in accordance with the terms of this
+   agreement shall continue in effect.
+
+11. Usage Report/Audit
+
+   You agree to immediately notify Frameless if the number of named
+   developers increase and pay any relevant additional fees in accordance
+   with Section 9.
+
+12. Limited Warranty
+
+   Frameless Software is a tool intended to be used by trained developers.
+
+   TO THE EXTENT ALLOWED UNDER APPLICABLE LAW, THE SOFTWARE AND ANY
+   RELEASE OR UPGRADES ARE PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND,
+   EITHER EXPRESSED OR IMPLIED. FRAMELESS DOES NOT WARRANT THAT FRAMELESS
+   SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE. YOU ARE RESPONSIBLE FOR
+   THE RESULTS OBTAINED FROM THE USE OF FRAMELESS SOFTWARE.
+
+13. Disclaimer of Damages and Limitation of Liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   FRAMELESS BE LIABLE FOR ANY LOST REVENUES OR PROFITS OR ANTICIPATED
+   SAVINGS, GOODWILL, OR OTHER SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY,
+   CONSEQUENTIAL OR PUNITIVE DAMAGES HOWEVER CAUSED AND REGARDLESS OF
+   THEORY OF LIABILITY WHETHER ANY CLAIM FOR SUCH RECOVERY IS BASED UPON
+   THEORIES OF CONTRACT, NEGLIGENCE OR TORT (INCLUDING STRICT LIABILITY),
+   EVEN IF FRAMELESS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+   In particular, it is Your responsibility to test Frameless Software
+   including upgrades and to establish and maintain backup systems and
+   procedures necessary to reconstruct lost or altered files, data or
+   programs.
+
+   In any event the maximum liability of Frameless for any DIRECT DAMAGE
+   arising from, or relating to, this Frameless License Agreement shall
+   not exceed the yearly subscription fee paid for the current
+   subscription term.
+
+   This limitation applies to Frameless Software, upgrades and support
+   services.
+
+14. General
+
+   You may not assign or transfer this agreement without Frameless prior
+   consent.
+
+   These provisions shall be governed by the laws of The Netherlands
+   within the jurisdiction of the appropriate court of Utrecht. You
+   acknowledge and agree that notwithstanding the foregoing Frameless may
+   decide upon its total discretion that a claim or action under this
+   license may be brought and shall be subject to the relevant local law
+   or local competent courts which may have jurisdiction over You. The
+   United Nations Convention on Contracts for the International Sales of
+   Goods is hereby excluded from the application of this Agreement.
+
+   Should you have any question, exceptions or modifications request with
+   respect to this Frameless License Agreement contact us directly at
+   support@frameless.io

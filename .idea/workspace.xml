@@ -1,153 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="Fixed the &quot;Service Info&quot; button to work again.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xslt/CTS210to11.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xslt/CTS2ConversionUtils.xsl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/test.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/jquery.xslTransform.packed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/CHANGELOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/compressed-js-header.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/css/sarissa.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/css/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dependencies.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/clipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushCSharp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushCpp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushDelphi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushJava.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushPython.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushRuby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushSql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushVb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Scripts/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Styles/SyntaxHighlighter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushCSharp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushCpp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushDelphi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushJava.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushPython.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushRuby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushSql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushVb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/dp.SyntaxHighlighter/Uncompressed/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/CHANGES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/CREDITS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/ecmaunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/runtests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/testecmaunit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/testecmaunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/ecmaunit/version.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa-compressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa-mediawiki-compressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa-mediawiki.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa-table-utils-compressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa-table-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa_ieemu_xpath-compressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/gr/abiss/js/sarissa/sarissa_ieemu_xpath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/howtos.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/Openajax_Alliance_Member_Logo_light_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/abiss/banner-logo-dev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/external.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/geekologue-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/icon_error_sml.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/icon_info_sml.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/icon_success_sml.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/icon_warning_sml.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/maven-button-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/maven.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/images/newwindow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/installation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/integration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/issue-tracking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/files.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/DOMParser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/Sarissa.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/SarissaMediaWikiContext.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/XMLHttpRequest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/XMLSerializer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/XSLTProcessor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/_global_.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/src/_Users_manos_workspace_sarissa_target_classes_gr_abiss_js_sarissa_sarissa-mediawiki.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/src/_Users_manos_workspace_sarissa_target_classes_gr_abiss_js_sarissa_sarissa-table-utils.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/src/_Users_manos_workspace_sarissa_target_classes_gr_abiss_js_sarissa_sarissa.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jsdoc/symbols/src/_Users_manos_workspace_sarissa_target_classes_gr_abiss_js_sarissa_sarissa_ieemu_xpath.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/jslint/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/license.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/licenses/asl.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/licenses/fdl.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/licenses/gpl.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/licenses/lgpl.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/mail-lists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/project-info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/project-reports.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/project-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/ajaxform/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/ajaxform/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/minesweeper/MapBuilderBombList.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/minesweeper/MapExpander.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/minesweeper/RevealBombs.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/minesweeper/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/minesweeper/minesweeper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/css/xedHTMversion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/arr.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/arrUp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/attribute.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/comment.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/element.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/oval.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/pi.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/rightBack.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/img/text.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/js/sxe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/xslt/grid2xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/sxe/xslt/xml2grid.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/utils/escape_or_unescape.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/sample-apps/utils/tablesorting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/source-repository.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/team-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-bad.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-frag.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-html-frag.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-output-html.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-output-text.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-output-xml.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test-xml-frag.xsl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/testsarissa.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/test/testsarissa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/todo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/troubleshooting.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sarissa-full-0.9.9.4/css/site.css" afterPath="$PROJECT_DIR$/js/app/transformUtility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ValueSetsTableView.html" afterPath="$PROJECT_DIR$/tpl/ValueSetsTableView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
+    <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/LICENSE.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xslt/combinedXml10to11.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-ixslt2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-ixslt2.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless-xslt2.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameless/frameless.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.json" afterPath="$PROJECT_DIR$/services.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSetEntries.js" afterPath="$PROJECT_DIR$/js/app/valueSetEntries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSets.js" afterPath="$PROJECT_DIR$/js/app/valueSets.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lexevs-cvsv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397485355125" ignored="false" />
+    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397485675136" ignored="false" />
     <file path="/README.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396357703754" ignored="false" />
     <file path="/ValueSetsTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397063657653" ignored="false" />
     <file path="/ValueSetEntriesTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396385461308" ignored="false" />
@@ -261,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valueSets.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="valueSets.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/valueSets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="12" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.089197226">
+            <state line="43" column="12" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-3.4615386">
               <folding />
             </state>
           </provider>
@@ -281,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="47" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-15.8">
+            <state line="42" column="0" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.29356357">
               <folding />
             </state>
           </provider>
@@ -320,10 +190,10 @@
         <option value="$PROJECT_DIR$/xslt/combinedXml10to11.xsl" />
         <option value="$PROJECT_DIR$/example/xslSimple.xsl" />
         <option value="$PROJECT_DIR$/example/xmlSimple.xml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/xslt/CTS210to11.xsl" />
         <option value="$PROJECT_DIR$/js/app/transformUtility.js" />
         <option value="$PROJECT_DIR$/js/app/valueSets.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -422,6 +292,10 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -434,10 +308,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,7 +487,11 @@
       <created>1396444810996</created>
       <updated>1396444810996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added ability to request CTS2 1.0 XML and convert to CTS2 1.1 XML and then to CTS2 JSON on the client.">
+      <created>1397485685782</created>
+      <updated>1397485685782</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,12 +501,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32737535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32737535" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -693,7 +567,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the &quot;Service Info&quot; button to work again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ability to request CTS2 1.0 XML and convert to CTS2 1.1 XML and then to CTS2 JSON on the client." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -711,6 +585,7 @@
     <MESSAGE value="Added checks to in VS and VS Entries tables to verify they exist when iterating through the JSON." />
     <MESSAGE value="Added ability to search." />
     <MESSAGE value="Fixed the &quot;Service Info&quot; button to work again." />
+    <MESSAGE value="Added ability to request CTS2 1.0 XML and convert to CTS2 1.1 XML and then to CTS2 JSON on the client." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -783,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="47" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-15.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/ValueSetsTableView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="59" selection-start="635" selection-end="664" vertical-scroll-proportion="0.3115727">
@@ -822,7 +690,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/valueSets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="12" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.089197226">
+        <state line="43" column="12" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-3.4615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.29356357">
           <folding />
         </state>
       </provider>
