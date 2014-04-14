@@ -7,7 +7,6 @@ function getValueSets() {
     var url =  App.selectedServiceUrl;
 
     if (App.selectedServiceVersion == "1.1") {
-
         // Show busy/loading indicator
         showLoadingIndicatorForValueSets(true);
 
@@ -26,73 +25,56 @@ function getValueSets() {
             })
             // always called after success/failure.
             .always(function() {
-                // hide busy/loading indicator
-                showLoadingIndicatorForValueSets(false);
-
-                $("#valueSetsDiv").html(_.template(App.get("tpl/ValueSetsTableView.html")) (
-                    {
-                        data : this.data
-                    }
-                ));
-
-                registerRowClickEvent();
-                applyDatatablesToValueSets();
+                displayResults(this.data);
             });
     }
     else if (App.selectedServiceVersion == "1.0") {
-
 
         // Need to make a request to a CTS2 version 1.0 service.
         // This will return XML.  The XML needs to be transformed
         // into CTS2 1.1 XML and then transformed to CTS2 standard JSON.
 
-        url = url + "/valuesets?maxtoreturn=20";
+        // Show busy/loading indicator
+        showLoadingIndicatorForValueSets(true);
+
+        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=500";
         var xmlResponse = null;
 
         $.get( url, function(data) {
-            alert( "success" );
+
         })
             .done(function(data) {
                 this.data = data;
-
-                //console.log("XML File is loaded!");
-                //console.log(data);
-
-
-                transformXML(data);
 
             })
             .fail(function(xhr, ajaxOptions, thrownError){
                 this.data = null;
 
-                //console.log(xhr.status);
-                //console.log(thrownError);
+                console.log(xhr.status);
+                console.log(thrownError);
             })
             .always(function(data) {
 
+                // call the transform and send a callback to "displayResults" to
+                // display the results after transform is complete.
+                transformCTS2XML_10ToJSON(displayResults, data);
             });
-
-
-//        $.ajax({
-//            type: "GET",
-//            url: url,
-//            dataType: "xml",
-//            cache: false,
-//            success: function(result) {
-//                console.log("XML File is loaded!");
-//                console.log(result);
-//            },
-//            error:function (xhr, ajaxOptions, thrownError){
-//                console.log(xhr.status);
-//                console.log(thrownError);
-//
-//                console.log("Error " +xhr.status+": " + thrownError);
-//            },
-//            async: true
-//        });
-
     }
+}
 
+function displayResults(data) {
+
+    // hide busy/loading indicator
+    showLoadingIndicatorForValueSets(false);
+
+    $("#valueSetsDiv").html(_.template(App.get("tpl/ValueSetsTableView.html")) (
+        {
+            data : data
+        }
+    ));
+
+    registerRowClickEvent();
+    applyDatatablesToValueSets();
 }
 
 function applyDatatablesToValueSets() {
@@ -136,28 +118,5 @@ function showLoadingIndicatorForValueSets(show) {
         $('#valueSetsTableDiv').show();
     }
 }
-
-function transformXML(xml) {
-
-    $('#bottom').getTransform(
-        'examples/test.xsl',
-        'examples/test.xml'
-    );
-
-
-//    $.getTransform(
-//        '/xslt/XMLToJson.xsl',            // path or xsl document in javascript variable
-//        xml,                              // path or xml document in javascript variable
-//        {
-//            //xpath: '/test/inside',        // trims your xml file to that defined by this xpath
-//            eval: true,                     // evaluates any <script> blocks it finds in the transformed result
-//            callback: function(result){     // getTransform evaluates this function when transformation is complete
-//                console.log("after xml transform....");
-//            }
-//        }
-//    );
-
-}
-
 
 

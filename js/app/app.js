@@ -20,8 +20,8 @@ var App = {
     selectedServiceUrl :'',
     selectedServiceVersion :'',
 
-    valueSetParameters : '&maxtoreturn=500&format=json&callback=?',
-    valueSetEntryParameters : '?maxtoreturn=100&format=json&callback=?',
+    valueSetParameters : '&maxtoreturn=2000&format=json&callback=?',
+    valueSetEntryParameters : '?maxtoreturn=1000&format=json&callback=?',
 
     valueSetEntriesTitle : "Value Set Entries",
 

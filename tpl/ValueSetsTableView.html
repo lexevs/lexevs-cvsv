@@ -28,17 +28,8 @@
                             <% } %>
                         </td>
 
-
-                        <% var definitionUrl = "";
-                           if (entry.currentDefinition != null) {
-                                definitionUrl = entry.currentDefinition.valueSetDefinition.href + "/resolution/1";
-                           }
-                           else {
-                                definitionUrl =entry.href + "/definition/1/resolution";
-                           } %>
-
-                        <td class="vsHref" data-value="<%= definitionUrl %>">
-                            <a href="<%= definitionUrl %>" target="_blank"
+                        <td class="vsHref" data-value="<%= entry.href %>">
+                            <a href="<%= entry.href %>" target="_blank"
                                 <button class="btn btn-primary btn-xs downloadValueSet" data-id="someId">
                                     <span class="glyphicon glyphicon-download"></span> Download
                                 </button>

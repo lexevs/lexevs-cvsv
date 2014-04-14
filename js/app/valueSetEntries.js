@@ -8,7 +8,7 @@ function getValueSetEntries(href, name) {
     }
 
     var data = null;
-    var url = href + App.valueSetEntryParameters
+    var url = href + "?format=json"
     console.log(url);
 
     // Show busy/loading indicator
@@ -28,9 +28,52 @@ function getValueSetEntries(href, name) {
         })
         // always called after success/failure.
         .always(function() {
+
             // hide busy/loading indicator
             showLoadingIndicatorForEntries(false);
 
+            if (this.data != null) {
+               getCurrentValueSetDefinition(this.data, name);
+            }
+        });
+}
+
+function getCurrentValueSetDefinition(vsData, name) {
+
+    var data = null;
+    var currentDefinition = null;
+
+    if (vsData.ValueSetCatalogEntryMsg.valueSetCatalogEntry.currentDefinition != null) {
+       currentDefinition = vsData.ValueSetCatalogEntryMsg.valueSetCatalogEntry.currentDefinition.valueSetDefinition.href;
+    }
+
+    if (currentDefinition == null){
+        return;
+    }
+
+    // Show busy/loading indicator
+    showLoadingIndicatorForEntries(true);
+
+    var href = currentDefinition + "/resolution?format=json"
+    console.log(href);
+
+    $.getJSON(href, function(data) {
+
+    })
+        // success
+        .done(function(data) {
+            this.data = data;
+        })
+        // fail
+        .fail(function(jqXHR, textStatus, errorThrown) {
+            console.log('Resolution request failed! ' + textStatus);
+            this.data = null;
+        })
+        // always called after success/failure.
+        .always(function() {
+
+            // hide busy/loading indicator
+            showLoadingIndicatorForEntries(false);
             populateValueSetEntriesTable(this.data, name)
         });
 }
