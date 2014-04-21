@@ -5,14 +5,16 @@
 //
 // cts2Xlm10 : XML from CTS2 1.0 Service.
 // displayResults : callback to call and display data when the transformations are complete.
-function transformCTS2XML_10ToJSON(displayResults, cts2Xlm10) {
+// name : optional name for the callback to use.
+function transformCTS2XML_10ToJSON(callback, cts2Xlm10, name) {
 
     var proc1 = new XSLT2Processor(),
         proc2 = new XSLT2Processor(),
         CTS210to11Xslt, xml2json;
 
     if (cts2Xlm10 == null) {
-        displayResults(null);
+        callback(null);
+        return;
     }
 
     // Load the two stylesheets:
@@ -30,8 +32,18 @@ function transformCTS2XML_10ToJSON(displayResults, cts2Xlm10) {
 
             // Parse the JSON, and place it in a data object, then send back
             var cts2Json = JSON.parse(json);
-            var data = {ValueSetCatalogEntryDirectory: cts2Json.ValueSetCatalogEntryDirectory};
-            displayResults(data);
+            console.log(cts2Json);
+
+            var data = null;
+
+            if (name !=null) {
+                data = {ValueSetCatalogEntryMsg: cts2Json.ValueSetCatalogEntryMsg};
+                callback(data, name);
+            }
+            else {
+                data = {ValueSetCatalogEntryDirectory: cts2Json.ValueSetCatalogEntryDirectory};
+                callback(data);
+            }
         }, e);
     }, e);
 }

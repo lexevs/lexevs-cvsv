@@ -37,7 +37,7 @@ function getValueSets() {
         // Show busy/loading indicator
         showLoadingIndicatorForValueSets(true);
 
-        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=500";
+        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=10";
         var xmlResponse = null;
 
         $.get( url, function(data) {
@@ -57,7 +57,7 @@ function getValueSets() {
 
                 // call the transform and send a callback to "displayResults" to
                 // display the results after transform is complete.
-                transformCTS2XML_10ToJSON(displayResults, data);
+                transformCTS2XML_10ToJSON(displayResults, this.data, null);
             });
     }
 }
