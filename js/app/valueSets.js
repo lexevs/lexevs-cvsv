@@ -13,20 +13,17 @@ function getValueSets() {
         url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + App.valueSetParameters;
         console.log(url);
 
-        $.getJSON(url, function(data) {
-        })
-            // success
-            .done(function(data) {
-                this.data = data;
-            })
-            // fail
-            .fail(function(jqXHR, textStatus, errorThrown) {
-                this.data = null;
-            })
-            // always called after success/failure.
-            .always(function() {
-                displayResults(this.data);
-            });
+        // Use JSONP lib
+        $.jsonp({
+            url: url,
+            success: function(json) {
+                displayResults(json);
+            },
+            error: function() {
+                displayResults(null);
+            }
+        });
+
     }
     else if (App.selectedServiceVersion == "1.0") {
 

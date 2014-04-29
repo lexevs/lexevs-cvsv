@@ -22,7 +22,9 @@ function authenticateUser() {
                 className: "btn-default",
                 callback: function() {
                     // reset cts2 service pulldown
-                    $("#cts2Services").val("");
+                    $("#cts2Services option[value='']").attr("selected", "selected");
+                    // Fire the change.
+                    $('#cts2Services').trigger('change');
                 }
             }
         }
@@ -46,7 +48,6 @@ function authenticateUserService(id, pw)  {
             "Content-Type" :"application/json"
         }
     })
-
         .done(function (data) {
             console.log("Login DONE");
         })
@@ -87,8 +88,8 @@ function doLogout(){
     renderEmptyValueSetTable();
     renderEmptyValueSetEntriesTable();
 
-    // TODO:  if we get multiple cts2 services that we log into, then we need to remove
-    // only that one, and not do a clear on the entire cache.
+    // TODO: If we get multiple cts2 services that we log into, then we need to remove
+    // TODO: only that one, and not do a clear on the entire cache.
 
     sessionStorage.clear();
     // Force IE to clear the authentication cache

@@ -40,11 +40,10 @@ App.MainView = Backbone.View.extend({
         });
 
         // listen for when the user clicks enter in the search box
+        // enable search when there are at least 3 characters typed in and
+        // there is a valid service.
         $('#cts2SearchText').keyup(function(e){
-            if(e.keyCode == 13)
-            {
-                $self.doSearch();
-            }
+            $self.setSearchEnablement(e);
         });
 
         $('#cts2ServiceInfo').click(function () {
@@ -83,6 +82,8 @@ App.MainView = Backbone.View.extend({
             else {
                 $("#logoutButton").hide();
             }
+
+            $self.setSearchEnablement(null);
         });
 
         renderEmptyValueSetTable();
@@ -96,6 +97,24 @@ App.MainView = Backbone.View.extend({
 
     logout : function() {
         doLogout();
+    },
+
+    setSearchEnablement : function(e) {
+
+        var validSearchString = $('#cts2SearchText').val().length >= 3;
+        var valideService = $("#cts2Services").val().length >0;
+
+        if (validSearchString && valideService) {
+
+            $('#cts2SearchButton').prop('disabled', false);
+            if(e != null && e.keyCode == 13)
+            {
+                this.doSearch();
+            }
+        }
+        else {
+            $('#cts2SearchButton').prop('disabled', true);
+        }
     }
 
 });

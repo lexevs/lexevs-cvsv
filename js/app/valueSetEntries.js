@@ -18,27 +18,16 @@ function getValueSetEntries(href, name) {
         // Show busy/loading indicator
         showLoadingIndicatorForEntries(true);
 
-        $.getJSON(url, function(data) {
-
-        })
-            // success
-            .done(function(data) {
-                this.data = data;
-            })
-            // fail
-            .fail(function(jqXHR, textStatus, errorThrown) {
-                console.log('Value set entries request failed! ' + textStatus);
-                this.data = null;
-
-            })
-            // always called after success/failure.
-            .always(function() {
-
-                // hide busy/loading indicator
-                //showLoadingIndicatorForEntries(false);
-                populateValueSetEntriesTable(this.data, name);
-
-            });
+        // Use JSONP lib
+        $.jsonp({
+            url: url,
+            success: function(json) {
+                populateValueSetEntriesTable(json, name);
+            },
+            error: function() {
+                populateValueSetEntriesTable(null, name);
+            }
+        });
     }
     else if (App.selectedServiceVersion == "1.0") {
 
