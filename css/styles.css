@@ -18,6 +18,10 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.img-overview {
+    margin: 0 auto;
+}
 /*
 ul {
     list-style-type: none;

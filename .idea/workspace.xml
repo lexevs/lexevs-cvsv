@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/connections.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/LoginView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/authentication.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/views/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/AboutView.html" afterPath="$PROJECT_DIR$/tpl/AboutView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/MainView.html" afterPath="$PROJECT_DIR$/tpl/MainView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ShellView.html" afterPath="$PROJECT_DIR$/tpl/ShellView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ValueSetsTableView.html" afterPath="$PROJECT_DIR$/tpl/ValueSetsTableView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/cts2ServiceInformation.js" afterPath="$PROJECT_DIR$/js/app/cts2ServiceInformation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/main.js" afterPath="$PROJECT_DIR$/js/app/views/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/router.js" afterPath="$PROJECT_DIR$/js/app/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.json" afterPath="$PROJECT_DIR$/services.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/transformUtility.js" afterPath="$PROJECT_DIR$/js/app/transformUtility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSetEntries.js" afterPath="$PROJECT_DIR$/js/app/valueSetEntries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSets.js" afterPath="$PROJECT_DIR$/js/app/valueSets.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lexevs-cvsv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398348931782" ignored="false" />
+    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398775878844" ignored="false" />
     <file path="/README.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396357703754" ignored="false" />
     <file path="/ValueSetsTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398189338932" ignored="false" />
     <file path="/ValueSetEntriesTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396385461308" ignored="false" />
@@ -46,7 +31,7 @@
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398372782919" ignored="false" />
     <file path="/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398372752095" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398368887923" ignored="false" />
-    <file path="/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398352768122" ignored="false" />
+    <file path="/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398785384306" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
     <file path="/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398175462540" ignored="false" />
     <file path="$USER_HOME$/Documents/Work/LexEVS/lexevsValueSetViewer/services.json" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396881272114" ignored="false" />
@@ -58,7 +43,7 @@
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397850710215" ignored="false" />
     <file path="/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397849662481" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/css/styles.css" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398712478557" ignored="false" />
-    <file path="/styles.css" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398712432431" ignored="false" />
+    <file path="/styles.css" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398784924394" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/reporting/reporting.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396967678600" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/reporting/ReportingView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398082425889" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/definitionDetails.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323049" ignored="false" />
@@ -114,7 +99,7 @@
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/CustomPropertyView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398348980361" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/shell.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398369341591" ignored="false" />
     <file path="/shell.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398369318831" ignored="false" />
-    <file path="/AboutView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398718733749" ignored="false" />
+    <file path="/AboutView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398785842872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,31 +183,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/views/about.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutView.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AboutView.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="56" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-27.5">
+            <state line="31" column="19" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.5278093">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transformUtility.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/transformUtility.js">
+      <file leaf-file-name="ShellView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ShellView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="87" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="19" column="0" selection-start="601" selection-end="803" vertical-scroll-proportion="-11.875">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -230,7 +204,7 @@
       <file leaf-file-name="MainView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/MainView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="66" selection-start="668" selection-end="668" vertical-scroll-proportion="-6.5416665">
+            <state line="47" column="9" selection-start="1543" selection-end="1613" vertical-scroll-proportion="-20.916666">
               <folding />
             </state>
           </provider>
@@ -245,21 +219,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValueSetsTableView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/ValueSetsTableView.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="27" column="18" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
+      <file leaf-file-name="DefaultView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/DefaultView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4313099">
+            <state line="9" column="23" selection-start="544" selection-end="544" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -297,25 +269,25 @@
         <option value="$PROJECT_DIR$/tpl/ValueSetsTableView.html" />
         <option value="$PROJECT_DIR$/services.json" />
         <option value="$PROJECT_DIR$/js/app/app.js" />
-        <option value="$PROJECT_DIR$/tpl/ShellView.html" />
         <option value="$PROJECT_DIR$/js/app/router.js" />
         <option value="$PROJECT_DIR$/js/app/authentication.js" />
         <option value="$PROJECT_DIR$/tpl/LoginView.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/tpl/AboutView.html" />
         <option value="$PROJECT_DIR$/tpl/MainView.html" />
         <option value="$PROJECT_DIR$/js/app/transformUtility.js" />
         <option value="$PROJECT_DIR$/js/app/valueSetEntries.js" />
         <option value="$PROJECT_DIR$/js/app/valueSets.js" />
         <option value="$PROJECT_DIR$/js/app/views/main.js" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/tpl/ShellView.html" />
+        <option value="$PROJECT_DIR$/tpl/AboutView.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1910" />
-    <option name="y" value="-97" />
-    <option name="width" value="1374" />
-    <option name="height" value="1123" />
+    <option name="x" value="-1899" />
+    <option name="y" value="-92" />
+    <option name="width" value="1301" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -665,11 +637,15 @@
       <created>1398092585936</created>
       <updated>1398092585936</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Additional updates for XML calls and UI modifications based on feedback.">
+      <created>1398775894050</created>
+      <updated>1398775894050</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1910" y="-97" width="1374" height="1123" extended-state="0" />
+    <frame x="-1899" y="-92" width="1301" height="1089" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -691,7 +667,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075302" sideWeight="0.7969783" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26533866" sideWeight="0.7969783" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -741,7 +717,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to call NLM via CTS2 1.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional updates for XML calls and UI modifications based on feedback." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,25 +739,12 @@
     <MESSAGE value="Added files to Git." />
     <MESSAGE value="Removed files from Git." />
     <MESSAGE value="Added ability to call NLM via CTS2 1.0." />
+    <MESSAGE value="Additional updates for XML calls and UI modifications based on feedback." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="113" selection-end="113" vertical-scroll-proportion="0.047468353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/views/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/views/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -797,27 +760,6 @@
     <entry file="file://$PROJECT_DIR$/js/app/authentication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="15" selection-start="87" selection-end="87" vertical-scroll-proportion="0.03033367">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="370" selection-end="370" vertical-scroll-proportion="0.34890965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="56" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-27.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/MainView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="66" selection-start="668" selection-end="668" vertical-scroll-proportion="-6.5416665">
           <folding />
         </state>
       </provider>
@@ -861,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/LoginView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="667" selection-end="830" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="45" selection-start="553" selection-end="553" vertical-scroll-proportion="-8.125">
@@ -875,9 +810,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="313" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4313099">
+        <state line="27" column="18" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/DefaultView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="544" selection-end="544" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/MainView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="9" selection-start="1543" selection-end="1613" vertical-scroll-proportion="-20.916666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/LoginView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="667" selection-end="830" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/ShellView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="601" selection-end="803" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.5278093">
           <folding />
         </state>
       </provider>
