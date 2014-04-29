@@ -4,26 +4,55 @@
         <h1>About NCI Value Set Services Client</h1>
     </div>
 
-    <p class="lead">This client can connect to CTS2 Services that adhere to the following profile:</p>
-
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h2 class="panel-title"><strong>NCI Value Set Services Client Profile</strong></h2>
-        </div>
-        <div class="panel-body">
-
-            <p class="list-group-item-text"><strong>CTS2 Version 1.1</strong></p>
-            <p class="list-group-item-text"><strong>CTS2 Standard JSON</strong></p>
-
-            <p class="list-group-item-text"><strong>Structural Profile: Value Set</strong></p>
-
-            <p class="list-group-item-text">Functional Profile: Read </p>
-
-            <p class="list-group-item-text"><strong>Structural Profile: Value Set Definition</strong></p>
-            <p class="list-group-item-text">Functional Profile: Read</p>
-            <p class="list-group-item-text">Functional Profile: Resolution</p>
-
-        </div>
-
+    <div class="page-header">
+        <h3>Source Code</h3>
     </div>
+
+    <p class="lead">The source code for this project is open source and is available <a href="http://github.com/lexevs/lexevs-cvsv" target="_blank">here</a>, in GitHub.</p>
+
+    <div class="page-header">
+        <h3>Value Set Client Profile</h3>
+    </div>
+
+    <p class="lead">This client can connect to CTS2 Services that adhere to the following profile requirements:</p>
+
+    <ul>
+        <li>CTS2 Version 1.1</li>
+        <li>CTS2 Standard JSON</li>
+        <li>Search: Value set <strong>matchvalue</strong> must search on value set names (valueSetName)</li>
+        <li>Value Sets (in a <strong>ValueSetCatalogEntryDirectory</strong>)must have a <strong>currentDefinition</strong> defined. </li>
+
+        <li>Structural Profile: Value Set
+            <ul>
+                <li>Structural Profile: Value Set</li>
+            </ul>
+        </li>
+
+        <li>Functional Profile: Read
+            <ul>
+                <li>Functional Profile: Read</li>
+                <li>Functional Profile: Resolution</li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+    <!--p class="lead"> http://<server>/cts2/valuesets</p>
+
+    <p class="lead">A current definition must be defined at: ValueSetCatalogEntryDirectory.entry[x].currentDefinition.href</p>
+
+    <p class="lead"> http://<server>/cts2/valuesets</p-->
+
+    <div class="page-header">
+        <h3>UMLS</h3>
+    </div>
+    <p class="lead">Sign in using UMLS UTS Username/Password.  If you do not have one, you may <a href="https://uts.nlm.nih.gov/license.html" target="_blank">register here</a>.</p>
+
+    <div class="page-header">
+        <h3>Overview</h3>
+    </div>
+
+    <img src="img/connections.png" class="img-responsive" alt="Value Set Viewer Overview">
+
 </div>

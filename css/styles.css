@@ -18,11 +18,11 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-
+/*
 ul {
     list-style-type: none;
     padding:0; margin:0;
-}
+} */
 
 .list-inline {
 	padding-top: 12px;
@@ -40,6 +40,10 @@ hr {
 h4,h5,h6 {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.searchHint {
+    vertical-align:top;
 }
 
 .panel-body {

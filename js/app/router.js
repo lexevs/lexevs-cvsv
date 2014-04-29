@@ -2,8 +2,7 @@
 App.Router = Backbone.Router.extend({
 
     routes : {
-        ""        : "default",
-        "home"    : "main",
+        ""        : "main",
         "about"   : "about"
     },
 
@@ -11,22 +10,6 @@ App.Router = Backbone.Router.extend({
         App.shellView = new App.ShellView();
         $('body').html(App.shellView.render().el);
         this.$content = $("#mainContent");
-    },
-
-    default : function(param) {
-        // Since the home view never changes, we instantiate it and render it only once
-        if (!App.defaultView) {
-            App.defaultView = new App.DefaultView();
-            App.defaultView.render();
-        } else {
-            App.defaultView.delegateEvents();
-            // delegate events when the view is recycled
-        }
-        App.defaultView.render();
-        this.$content.html(App.defaultView.el);
-
-        App.defaultView.postRender();
-
     },
 
     main : function() {

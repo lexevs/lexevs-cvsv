@@ -37,7 +37,7 @@ function transformCTS2XML_10ToJSON(callback, cts2Xlm10, name) {
             var data = null;
 
             if (name !=null) {
-                data = {ValueSetCatalogEntryMsg: cts2Json.ValueSetCatalogEntryMsg};
+                data = {IteratableResolvedValueSet: cts2Json.IteratableResolvedValueSet};
                 callback(data, name);
             }
             else {

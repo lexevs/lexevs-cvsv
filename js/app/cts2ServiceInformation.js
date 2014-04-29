@@ -4,6 +4,7 @@ function getServiceInformation() {
     console.log(App.selectedServiceUrl);
     console.log(App.selectedServiceName);
     console.log(App.selectedServiceVersion);
+    console.log(App.selectedServiceAuthentication);
 
     // Check the version.  The return type for 1.0 is different and needs to
     // be accounted for.

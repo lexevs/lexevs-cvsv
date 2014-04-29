@@ -37,28 +37,42 @@ function getValueSets() {
         // Show busy/loading indicator
         showLoadingIndicatorForValueSets(true);
 
-        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=10";
+        url = url + "/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=500";
+        //url = "https://informatics.mayo.edu/vsmc/cts2/valuesets?matchvalue=" + $('#cts2SearchText').val() + "&maxtoreturn=100";
+
         var xmlResponse = null;
+        var data = null;
 
-        $.get( url, function(data) {
+        var endcodedCredentials = sessionStorage.getItem("endcodedCredentials_"+ App.selectedServiceUrl);
+        console.log(url);
 
+
+        $.ajax({
+            cache: false,
+            type: "GET",
+            url: url,
+            //dataType: "json",
+            async: false,
+
+            headers: {
+                'Authorization' : 'Basic ' + endcodedCredentials
+            }
         })
-            .done(function(data) {
+            .done(function (data) {
+                console.log("get DONE");
                 this.data = data;
-
             })
-            .fail(function(xhr, ajaxOptions, thrownError){
+            .fail(function (jqXHR, textStatus) {
+                console.log("get FAILED");
                 this.data = null;
-
-                console.log(xhr.status);
-                console.log(thrownError);
             })
             .always(function(data) {
+                console.log("Going to process the XML");
 
                 // call the transform and send a callback to "displayResults" to
                 // display the results after transform is complete.
                 transformCTS2XML_10ToJSON(displayResults, this.data, null);
-            });
+            })
     }
 }
 
@@ -81,7 +95,8 @@ function applyDatatablesToValueSets() {
     // Applying jQuery plugin datatables to the value sets table
     $("#valueSetsTable").dataTable({
         "bBootstrap": true,
-        "oTableTools": {"sRowSelect": "single"}
+        "oTableTools": {"sRowSelect": "single"},
+        "iDisplayLength": 25
     });
 
     // Hide the search/filter

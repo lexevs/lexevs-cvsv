@@ -1,5 +1,7 @@
 <div class="container">
 
+    <h3>NCI CTS2 Value Set Viewer</h3>
+
     <div class="row" class="col-md-12">
         <br>
         <div class="well well-lg">
@@ -7,27 +9,27 @@
                 <div class="col-lg-1">
                     <h5>Service</h5>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <select size="0" class="form-control input-sm" id="cts2Services"></select>
                 </div>
-                <div class="col-lg-4">
+
+                <div class="col-lg-4 input-group">
+                    <input type="text" id="cts2SearchText" placeholder="Search Criteria" class="form-control">
+                    <p class="help-block">Search on Value Set Name</p>
+                    <span class="input-group-btn searchHint">
+                        <button class="btn btn-default" id="cts2SearchButton" type="button">Search</button>
+                    </span>
+
+                </div>
+
+
+                <div class="col-lg-1">
                     <button type="button" id="cts2ServiceInfo" class="btn btn-info btn-sm">Service Info</button>
                 </div>
+                <div class="col-lg-2">
+                    <button type="button" id="logoutButton" class="btn btn-info btn-sm">Log Out</button>
+                </div>
             </div>
-
-            </br>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-1">
-                    <div class="input-group">
-
-                        <input type="text" id="cts2SearchText" placeholder="Search Criteria" class="form-control">
-
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" id="cts2SearchButton" type="button">Search</button>
-                      </span>
-                    </div><!-- /input-group -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
 
         </div>
     </div>
