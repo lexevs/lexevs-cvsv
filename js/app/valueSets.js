@@ -43,7 +43,6 @@ function getValueSets() {
         var endcodedCredentials = sessionStorage.getItem("endcodedCredentials_"+ App.selectedServiceUrl);
         console.log(url);
 
-
         $.ajax({
             cache: false,
             type: "GET",

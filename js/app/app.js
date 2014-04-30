@@ -62,18 +62,5 @@ $(document).on("ready", function() {
 
     //Placeholder Support for I.E.
     $('input, textarea').placeholder();
-
-    $(document).ajaxSend(function(event, request, settings) {
-       // $('#loading-indicator').show();
-        //var elementId = event.delegateTarget.activeElement.id;
-        //console.log("busy --- ON " + elementId);
-
-    });
-
-    $(document).ajaxComplete(function(event, request, settings) {
-       // $('#loading-indicator').hide();
-        //var elementId = event.delegateTarget.activeElement.id;
-        //console.log("busy --- OFF " + elementId);
-    });
 });
 
