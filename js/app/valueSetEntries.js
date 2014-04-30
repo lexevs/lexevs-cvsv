@@ -120,7 +120,8 @@ function populateValueSetEntriesTable(entryData, name) {
     $("#valueSetEntriesDiv").html(_.template(App.get("tpl/ValueSetEntriesTableView.html")) (
         {
             data : entryData,
-            title : title
+            title : title,
+            version: App.selectedServiceVersion
         }
     ));
     applyDatatablesToValueSetEntries();

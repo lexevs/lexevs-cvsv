@@ -23,14 +23,32 @@
                     var codeSystem = "";
                     var codeSystemVersion = "";
                     var resolutionInfo = data.IteratableResolvedValueSet.resolutionInfo;
-                    if (resolutionInfo.resolvedUsingCodeSystem !== undefined &&
-                        resolutionInfo.resolvedUsingCodeSystem !== null &&
-                        resolutionInfo.resolvedUsingCodeSystem.length > 0) {
 
-                        var resolvedUsingCodeSystem = resolutionInfo.resolvedUsingCodeSystem[0];
+                    if (version === "1.0") {
 
-                        codeSystem = resolvedUsingCodeSystem.codeSystem.content;
-                        codeSystemVersion = resolvedUsingCodeSystem.version.content;
+                        if (resolutionInfo.resolvedUsingCodeSystem !== undefined &&
+                            resolutionInfo.resolvedUsingCodeSystem !== null) {
+
+
+                            if (resolutionInfo.resolvedUsingCodeSystem.codeSystem._content !== null &&
+                                resolutionInfo.resolvedUsingCodeSystem.codeSystem._content !== undefined) {
+
+                                codeSystem = resolutionInfo.resolvedUsingCodeSystem.codeSystem._content;
+                                codeSystemVersion =  resolutionInfo.resolvedUsingCodeSystem.version;
+                            }
+                        }
+                    }
+                    else {
+
+                        if (resolutionInfo.resolvedUsingCodeSystem !== undefined &&
+                            resolutionInfo.resolvedUsingCodeSystem !== null &&
+                            resolutionInfo.resolvedUsingCodeSystem.length > 0) {
+
+                            var resolvedUsingCodeSystem = resolutionInfo.resolvedUsingCodeSystem[0];
+
+                            codeSystem = resolvedUsingCodeSystem.codeSystem.content;
+                            codeSystemVersion = resolvedUsingCodeSystem.version.content;
+                        }
                     }
                 %>
 
