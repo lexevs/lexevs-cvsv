@@ -32,9 +32,7 @@ $valid_requests = array(
         'infvsac',
         'http://infvsac/vsmcsecure/cts2/valuesets',
         'http://infvsac/vsmcsecure/cts2/valueset'
-        //'informatics.mayo.edu',
-        //'https://informatics.mayo.edu/vsmc/cts2/valuesets'
-        
+
 );
 
 /* * * STOP EDITING HERE UNLESS YOU KNOW WHAT YOU ARE DOING * * */
