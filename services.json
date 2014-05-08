@@ -1,5 +1,5 @@
 [
-    {"serviceName":"LexEVS 6.1", "serviceUrl":"http://informatics.mayo.edu/cts2/services/evscts2/", "cts2Version" : "1.1", "serviceAuthentication" : false},
-    {"serviceName":"TLAMP", "serviceUrl":"http://informatics.mayo.edu/cts2/services/tlamp", "cts2Version" : "1.1", "serviceAuthentication" : false},
-    {"serviceName":"NLM", "serviceUrl":"https://informatics.mayo.edu/vsmc/cts2", "cts2Version" : "1.0", "serviceAuthentication" : true}
+    {"serviceName":"NCI (LexEVS 6.1)", "serviceUrl":"http://informatics.mayo.edu/cts2/services/evscts2/", "cts2Version" : "1.1", "serviceAuthentication" : false},
+    {"serviceName":"Mayo (TLAMP HL7)", "serviceUrl":"http://informatics.mayo.edu/cts2/services/tlamp", "cts2Version" : "1.1", "serviceAuthentication" : false},
+    {"serviceName":"NLM (VSAC)", "serviceUrl":"http://infvsac/vsmcsecure/cts2", "cts2Version" : "1.0", "serviceAuthentication" : true}
 ]

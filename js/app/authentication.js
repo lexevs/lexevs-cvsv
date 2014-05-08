@@ -11,9 +11,8 @@ function authenticateUser() {
                 label: "Login",
                 className: "btn-success",
                 callback: function() {
-                    user = $("#userIdValue").val();
-                    pw = $("#userPwValue").val()
-
+                    var user = $("#userIdValue").val();
+                    var pw = $("#userPwValue").val()
                     authenticateUserService(user, pw);
                 }
             },
@@ -22,9 +21,15 @@ function authenticateUser() {
                 className: "btn-default",
                 callback: function() {
                     // reset cts2 service pulldown
-                    $("#cts2Services option[value='']").attr("selected", "selected");
-                    // Fire the change.
-                    $('#cts2Services').trigger('change');
+                    $("#cts2Services").val('');
+
+                    App.selectedServiceName =   "";
+                    App.selectedServiceUrl =   "";
+                    App.selectedServiceVersion =  "";
+                    App.selectedServiceAuthentication = "";
+
+                    // disable the service info button
+                    $('#cts2ServiceInfo').prop('disabled',true);
                 }
             }
         }
@@ -40,33 +45,23 @@ function authenticateUserService(id, pw)  {
         cache: false,
         type: "GET",
         url: url,
-        dataType: "json",
+        dataType: "xml",
         async: false,
 
         headers: {
             'Authorization' : 'Basic ' + endcodedCredentials,
-            "Content-Type" :"application/json"
+            "Content-Type" :"application/xml"
         }
     })
         .done(function (data) {
-            console.log("Login DONE");
+            // Storing the authentication information in browser session.
+            sessionStorage.setItem("endcodedCredentials_"+ App.selectedServiceUrl, endcodedCredentials);
+            $("#logoutButton").show();
+
         })
         .fail(function (jqXHR, textStatus) {
             console.log("Login FAILED");
-        })
-        .always(function(jqXHR, textStatus, errorThrown, data) {
-            console.log("Login status: " + jqXHR.status);
-
-            // if successful login, return the encoded credentials to be cached.
-            if (jqXHR.status === 200) {
-
-                // Storing the authentication information in browser session.
-                sessionStorage.setItem("endcodedCredentials_"+ App.selectedServiceUrl, endcodedCredentials);
-                $("#logoutButton").show();
-            }
-            else {
-                authenticateUser();
-            }
+            authenticateUser();
         })
 }
 

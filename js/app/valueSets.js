@@ -47,11 +47,11 @@ function getValueSets() {
             cache: false,
             type: "GET",
             url: url,
-            //dataType: "json",
+            dataType: "xml",
             async: false,
 
             headers: {
-                'Authorization' : 'Basic ' + endcodedCredentials
+                "Authorization" : 'Basic ' + endcodedCredentials
             }
         })
             .done(function (data) {
@@ -61,6 +61,13 @@ function getValueSets() {
             .fail(function (jqXHR, textStatus) {
                 console.log("get FAILED");
                 this.data = null;
+                var test = jqXHR.getAllResponseHeaders();
+                var xml = jqXHR.responseXML;
+
+                console.log(jqxhr.responseText);
+                console.log(jqxhr.getResponseHeader('Content-Type'));
+                console.log(jqxhr);
+
             })
             .always(function(data) {
                 console.log("Going to process the XML");

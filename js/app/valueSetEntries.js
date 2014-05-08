@@ -38,8 +38,9 @@ function getValueSetEntries(href, name) {
         // Show busy/loading indicator
         showLoadingIndicatorForEntries(true);
 
-
         url = href + "/resolution?maxtoreturn=500";
+        url = updateUrlToInternal(url);
+
         var endcodedCredentials = sessionStorage.getItem("endcodedCredentials_"+ App.selectedServiceUrl);
 
         console.log(url);
@@ -48,7 +49,7 @@ function getValueSetEntries(href, name) {
             cache: false,
             type: "GET",
             url: url,
-            //dataType: "json",
+            dataType: "xml",
             async: false,
 
             headers: {
@@ -78,7 +79,6 @@ function getValueSetEntries(href, name) {
             })
     }
 }
-
 
 function applyDatatablesToValueSetEntries() {
     // Applying jQuery plugin datatables to the value sets table

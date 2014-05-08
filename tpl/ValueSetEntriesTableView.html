@@ -29,8 +29,14 @@
                         if (resolutionInfo.resolvedUsingCodeSystem !== undefined &&
                             resolutionInfo.resolvedUsingCodeSystem !== null) {
 
+                            if (Array.isArray(resolutionInfo.resolvedUsingCodeSystem)) {
+                                _.each(resolutionInfo.resolvedUsingCodeSystem,function(cs){
+                                    codeSystem = codeSystem  + " "  + cs.codeSystem._content;
+                                    codeSystemVersion =  codeSystemVersion  + " "  + cs.version;
+                                });
+                            }
 
-                            if (resolutionInfo.resolvedUsingCodeSystem.codeSystem._content !== null &&
+                            else if (resolutionInfo.resolvedUsingCodeSystem.codeSystem._content !== null &&
                                 resolutionInfo.resolvedUsingCodeSystem.codeSystem._content !== undefined) {
 
                                 codeSystem = resolutionInfo.resolvedUsingCodeSystem.codeSystem._content;
@@ -52,15 +58,30 @@
                     }
                 %>
 
-                <%_.each(data.IteratableResolvedValueSet.entry,function(entry){%>
+                <% if (Array.isArray(data.IteratableResolvedValueSet.entry)) {  %>
+
+                    <%_.each(data.IteratableResolvedValueSet.entry,function(entry){%>
+                        <tr>
+                            <td><%= entry.name %></td>
+                            <td><%= entry.designation %></td>
+                            <td><%= codeSystem %></td>
+                            <td><%= codeSystemVersion %></td>
+                        </tr>
+                    <% }); %>
+                <% } %>
+
+
+            <% if (!Array.isArray(data.IteratableResolvedValueSet.entry)) {  %>
                     <tr>
-                        <td><%= entry.name %></td>
-                        <td><%= entry.designation %></td>
+                        <td><%= data.IteratableResolvedValueSet.entry.name %></td>
+                        <td><%= data.IteratableResolvedValueSet.entry.designation %></td>
                         <td><%= codeSystem %></td>
                         <td><%= codeSystemVersion %></td>
                     </tr>
-                <% }); %>
+                <% } %>
+
             <% } %>
+
         </tbody>
 
     </table>

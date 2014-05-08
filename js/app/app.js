@@ -23,7 +23,7 @@ var App = {
 
     valueSetParameters : '&maxtoreturn=2000&format=json&callback=?',
     valueSetEntryParameters : '?maxtoreturn=1000&format=json&callback=?',
-    authenticationParameters : "/valuesets?maxtoreturn=1&callback=?",
+    authenticationParameters : "/valuesets?maxtoreturn=1",
 
     valueSetEntriesTitle : "Value Set Entries",
 
@@ -64,3 +64,10 @@ $(document).on("ready", function() {
     $('input, textarea').placeholder();
 });
 
+// redirect any https calls to use the proxy.
+$.ajaxPrefilter(function(options, originalOptions, jqXHR) {
+    if (options.url.indexOf("http://infvsac/vsmcsecure") > -1) {
+        options.headers['X-Proxy-URL'] = options.url;
+        options.url = 'proxy.php';
+    }
+});
