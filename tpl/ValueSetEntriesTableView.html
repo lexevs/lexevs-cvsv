@@ -58,7 +58,7 @@
                     }
                 %>
 
-                <% if (Array.isArray(data.IteratableResolvedValueSet.entry)) {  %>
+                <% if ($.isArray(data.IteratableResolvedValueSet.entry)) {  %>
 
                     <%_.each(data.IteratableResolvedValueSet.entry,function(entry){%>
                         <tr>
@@ -71,7 +71,7 @@
                 <% } %>
 
 
-            <% if (!Array.isArray(data.IteratableResolvedValueSet.entry)) {  %>
+                <% if (!$.isArray(data.IteratableResolvedValueSet.entry)) {  %>
                     <tr>
                         <td><%= data.IteratableResolvedValueSet.entry.name %></td>
                         <td><%= data.IteratableResolvedValueSet.entry.designation %></td>
