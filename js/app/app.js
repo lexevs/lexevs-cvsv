@@ -22,7 +22,7 @@ var App = {
     selectedServiceAuthentication : '',
 
     valueSetParameters : '&maxtoreturn=2000&format=json&callback=?',
-    valueSetEntryParameters : '?maxtoreturn=1000&format=json&callback=?',
+    valueSetEntryParameters : '/resolution?format=json&maxtoreturn=500&callback=?',
     authenticationParameters : "/valuesets?maxtoreturn=1",
 
     valueSetEntriesTitle : "Value Set Entries",

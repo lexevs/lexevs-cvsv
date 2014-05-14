@@ -12,7 +12,7 @@ function getValueSetEntries(href, name) {
 
     if (App.selectedServiceVersion == "1.1") {
 
-        url = href + "/resolution?format=json&callback=?";
+        url = href + App.valueSetEntryParameters;
         console.log(url);
 
         // Show busy/loading indicator
