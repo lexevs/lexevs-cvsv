@@ -24,3 +24,15 @@ This viewer can connect to CTS2 services to retrieve value sets if the services 
 The NLM CTS2 service requires a UMLS UTS Username/Password.
 
 This client has been tested on Internet Explorer 11, Firefox 28, Safari 6, and Chrome 34.
+
+
+## Proxy ##
+The Proxy script allows us make calls to the NLM CTS2 service (XML requests) which would otherwise be restricted by the client due the call being considered "cross-site scripting".  Because this is an XML request, we cannot use getJSON (which would resolve the "cross-site scripting" issue).
+
+Any calls that are made from the client that begin with "http://infvsac/vsmcsecure" (the internal Informatics URL for the NLM VSAC CTS2 Service) are redirected to call "proxy.php".   When proxy.php (on Informatics) is called, it will take make the call to the original URL and pass the results back to the client.
+
+For security reasons, only requests to the following URLs are allowed.  All others are blocked.
+- http://infvsac/vsmcsecure/cts2/valuesets
+- http://infvsac/vsmcsecure/cts2/valueset
+
+
