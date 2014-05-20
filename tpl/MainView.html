@@ -1,10 +1,8 @@
 <div class="container">
 
-    <!--h3>NCI CTS2 Value Set Viewer</h3-->
-
     <div class="row" class="col-md-12">
         <br>
-        <div class="well well-lg">
+        <div class="well well-sm">
             <div class="row">
                 <div class="col-lg-1">
                     <h5>Service</h5>
@@ -12,22 +10,18 @@
                 <div class="col-lg-3">
                     <select size="0" class="form-control input-sm" id="cts2Services"></select>
                 </div>
-
-                <div class="col-lg-4 input-group">
-                    <input type="text" id="cts2SearchText" placeholder="Search on Value Set Name" class="form-control">
-                    <!--p class="help-block">Search on Value Set Name</p-->
-                    <span class="input-group-btn searchHint">
-                        <button class="btn btn-default" id="cts2SearchButton" type="button">Search</button>
-                    </span>
-
-                </div>
-
-
                 <div class="col-lg-1">
-                    <button type="button" id="cts2ServiceInfo" class="btn btn-info btn-sm">Service Info</button>
+                    <button type="button" id="cts2ServiceInfo" class="btn btn-primary btn-sm">Service Info</button>
                 </div>
-                <div class="col-lg-2">
-                    <button type="button" id="logoutButton" class="btn btn-info btn-sm">Log Out</button>
+                <div class="col-lg-1">
+                    <button type="button" id="logoutButton" class="btn btn-primary btn-sm">Log Out</button>
+                </div>
+                <div class="col-lg-5 form-group">
+                    <input type="text" id="cts2SearchText" placeholder="Search on Value Set Name" class="form-control input-sm">
+                    <p class="help-block">Search on Value Set Name (minimum of 3 characters)</p>
+                </div>
+                <div class="col-lg-1">
+                    <button type="button" id="cts2SearchButton" class="btn btn-primary btn-sm">Search</button>
                 </div>
             </div>
 
@@ -57,21 +51,14 @@
                 <h4 class="modal-title" id="serviceInfoTitle"></h4>
             </div>
 
-            <!-- Table -->
-            <!--table class="table" id="serviceInfoProperties"></table>
-            <div class="modal-body" id="serviceInfoMessage"-->
             <div class="modal-body">
                 <!-- Table -->
                 <table class="table" id="serviceInfoProperties"></table>
 
                 <hr></br>
 
-                <div>
-
                 <div id="serviceInfoMessage"></div>
 
-                <!-- Table -->
-                <!--table class="table" id="serviceInfoMessage"></table-->
             </div>
 
             <div class="modal-footer">
