@@ -1,56 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="Added check for cts2 version 1.0.  Need to get vs entries differently for now.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxy.php" />
+    <list default="true" id="54045fe9-c567-41c5-b7b6-e5455ce56517" name="Default" comment="Updated help link at the bottom of the page.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/connections.png" afterPath="$PROJECT_DIR$/img/connections.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/AboutView.html" afterPath="$PROJECT_DIR$/tpl/AboutView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/MainView.html" afterPath="$PROJECT_DIR$/tpl/MainView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ShellView.html" afterPath="$PROJECT_DIR$/tpl/ShellView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html" afterPath="$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/authentication.js" afterPath="$PROJECT_DIR$/js/app/authentication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/cts2ServiceInformation.js" afterPath="$PROJECT_DIR$/js/app/cts2ServiceInformation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.json" afterPath="$PROJECT_DIR$/services.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/main.js" afterPath="$PROJECT_DIR$/js/app/views/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/router.js" afterPath="$PROJECT_DIR$/js/app/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/views/shell.js" afterPath="$PROJECT_DIR$/js/app/views/shell.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/utility.js" afterPath="$PROJECT_DIR$/js/app/utility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSetEntries.js" afterPath="$PROJECT_DIR$/js/app/valueSetEntries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/valueSets.js" afterPath="$PROJECT_DIR$/js/app/valueSets.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lexevs-cvsv.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399557646222" ignored="false" />
-    <file path="/README.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399557735059" ignored="false" />
+    <file path="/Dummy.txt" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401911723490" ignored="false" />
+    <file path="/README.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400530470775" ignored="false" />
     <file path="/ValueSetsTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398189338932" ignored="false" />
     <file path="/ValueSetEntriesTableView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399556608524" ignored="false" />
     <file path="/valueSetEntries.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399472507790" ignored="false" />
     <file path="/valueSets.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398872152145" ignored="false" />
-    <file path="/MainView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398720455727" ignored="false" />
-    <file path="/a.dummy" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399554262135" ignored="false" />
+    <file path="/MainView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400857061546" ignored="false" />
+    <file path="/a.dummy" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401727881327" ignored="false" />
     <file path="/app.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399468405405" ignored="false" />
-    <file path="/main.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398800471565" ignored="false" />
+    <file path="/main.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400877033268" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/app.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398351132037" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396882817308" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/reporting.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396455242508" ignored="false" />
     <file path="/reporting.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396455232654" ignored="false" />
-    <file path="/admin.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398360860596" ignored="false" />
+    <file path="/admin.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400610736605" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/ReportingView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396455351257" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/AdminView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396471582487" ignored="false" />
     <file path="/AdminView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398370072157" ignored="false" />
     <file path="/ReportingView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398082425889" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/js/app/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398372782919" ignored="false" />
-    <file path="/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398372752095" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401740470161" ignored="false" />
+    <file path="/router.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401738617501" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398368887923" ignored="false" />
-    <file path="/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398785384306" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
-    <file path="/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398798775127" ignored="false" />
+    <file path="/ShellView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400859343272" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401282177313" ignored="false" />
+    <file path="/index.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401282171912" ignored="false" />
     <file path="$USER_HOME$/Documents/Work/LexEVS/lexevsValueSetViewer/services.json" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396881272114" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/admin.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398361088141" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/admin.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400610740557" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/HomeView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/AdminView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398371036113" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/UsersView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397854205620" ignored="false" />
     <file path="/UsersView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397854205620" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397850710215" ignored="false" />
-    <file path="/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397849662481" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401392621444" ignored="false" />
+    <file path="/users.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400789964677" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/css/styles.css" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398712478557" ignored="false" />
     <file path="/styles.css" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398784924394" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/reporting/reporting.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1396967678600" ignored="false" />
@@ -58,10 +55,10 @@
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/definitionDetails.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323049" ignored="false" />
     <file path="/transformUtility.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398091059269" ignored="false" />
     <file path="/CTS210to11.xsl" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397248381823" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/RolesView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397844698493" ignored="false" />
-    <file path="/RolesView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397844693034" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/roles.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397762391288" ignored="false" />
-    <file path="/roles.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397509011996" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/RolesView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401390446241" ignored="false" />
+    <file path="/RolesView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401389834839" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/roles.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401740587184" ignored="false" />
+    <file path="/roles.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401396282273" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/examples/gender2lexgrid.py" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397583342699" ignored="false" />
     <file path="/gender2lexgrid.py" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397583329587" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/examples/berkson2lexgrid.py" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397586023490" ignored="false" />
@@ -90,13 +87,13 @@
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/addRole.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397824382167" ignored="false" />
     <file path="/addRole.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397824268429" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/AddRoleView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397847283558" ignored="false" />
-    <file path="$PROJECT_DIR$/../lcd-ui/js/app/authentication.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398370700942" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/authentication.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401740506819" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/models/definition.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/models/definitionDetails.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
     <file path="/AddRoleView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1397847283558" ignored="false" />
     <file path="$PROJECT_DIR$/../lcd-ui/readme.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398349323050" ignored="false" />
     <file path="/readme.md" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398083006502" ignored="false" />
-    <file path="/authentication.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399496004848" ignored="false" />
+    <file path="/authentication.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401739903940" ignored="false" />
     <file path="/services.json" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398188872875" ignored="false" />
     <file path="/cts2ServiceInformation.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399494487587" ignored="false" />
     <file path="/login.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398175482725" ignored="false" />
@@ -109,7 +106,24 @@
     <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/shell.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398369341591" ignored="false" />
     <file path="/shell.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1398369318831" ignored="false" />
     <file path="/AboutView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399557581833" ignored="false" />
-    <file path="/utility.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1399477011539" ignored="false" />
+    <file path="/utility.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401728494344" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/models/role.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400702753126" ignored="false" />
+    <file path="/role.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400702734535" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/collections/roles.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401388805436" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/index.jsp" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401282194463" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/RoleUsersView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401386443894" ignored="false" />
+    <file path="/RoleUsersView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401386372824" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/RoleRemoveUserButtonView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401372300043" ignored="false" />
+    <file path="/RoleRemoveUserButtonView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400674867588" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/utility.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401728497296" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/userSearch.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401388362964" ignored="false" />
+    <file path="/userSearch.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401388312109" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/UserSearchView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1400768601299" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/UserSearchResultsSimpleView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401224008089" ignored="false" />
+    <file path="/UserSearchResultsSimpleView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401223960860" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/tpl/admin/UserAddToRoleButtonView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401722721973" ignored="false" />
+    <file path="/UserAddToRoleButtonView.html" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401722715348" ignored="false" />
+    <file path="$PROJECT_DIR$/../lcd-ui/js/app/views/admin/adminUtil.js" changelist="54045fe9-c567-41c5-b7b6-e5455ce56517" time="1401282142944" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +143,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -166,6 +179,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -175,55 +189,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="54" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-19.307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="93" selection-start="1952" selection-end="2256" vertical-scroll-proportion="-9.807693">
+            <state line="34" column="63" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-18.73077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valueSetEntries.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/valueSetEntries.js">
+      <file leaf-file-name="shell.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/views/shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="71" selection-start="3879" selection-end="3879" vertical-scroll-proportion="0.0">
+            <state line="76" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="-43.846153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
+      <file leaf-file-name="MainView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/MainView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-16.583334">
+            <state line="16" column="42" selection-start="554" selection-end="554" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="ShellView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/ShellView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="89" selection-start="957" selection-end="957" vertical-scroll-proportion="0.5742726">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cts2ServiceInformation.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/cts2ServiceInformation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="630" selection-end="630" vertical-scroll-proportion="-8.653846">
+            <state line="31" column="11" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
@@ -232,28 +228,17 @@
       <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="46" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0">
+            <state line="16" column="18" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValueSetEntriesTableView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="41" selection-start="3699" selection-end="3699" vertical-scroll-proportion="-25.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utility.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="utility.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/utility.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="64" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="53" column="20" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.75642246">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -276,30 +261,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/tpl/ShellView.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app/views/main.js" />
-        <option value="$PROJECT_DIR$/tpl/MainView.html" />
         <option value="$PROJECT_DIR$/proxy.php" />
         <option value="$PROJECT_DIR$/js/app/valueSets.js" />
-        <option value="$PROJECT_DIR$/js/app/utility.js" />
         <option value="$PROJECT_DIR$/services.json" />
         <option value="$PROJECT_DIR$/js/app/cts2ServiceInformation.js" />
-        <option value="$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html" />
         <option value="$PROJECT_DIR$/js/app/app.js" />
-        <option value="$PROJECT_DIR$/js/app/authentication.js" />
         <option value="$PROJECT_DIR$/js/app/valueSetEntries.js" />
         <option value="$PROJECT_DIR$/tpl/AboutView.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/app/router.js" />
+        <option value="$PROJECT_DIR$/js/app/authentication.js" />
+        <option value="$PROJECT_DIR$/tpl/MainView.html" />
+        <option value="$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html" />
+        <option value="$PROJECT_DIR$/tpl/ShellView.html" />
+        <option value="$PROJECT_DIR$/js/app/views/shell.js" />
+        <option value="$PROJECT_DIR$/js/app/views/main.js" />
+        <option value="$PROJECT_DIR$/js/app/utility.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1917" />
-    <option name="y" value="-96" />
-    <option name="width" value="1348" />
-    <option name="height" value="824" />
+    <option name="x" value="-1919" />
+    <option name="y" value="-100" />
+    <option name="width" value="1338" />
+    <option name="height" value="1199" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -438,27 +423,27 @@
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="115" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="125" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="114" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="124" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="117" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="116" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="128" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="914" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="904" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="122" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="119" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="897" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="121" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="118" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -486,6 +471,35 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -516,35 +530,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -558,13 +543,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -586,6 +564,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -674,17 +659,28 @@
       <created>1398869210775</created>
       <updated>1398869210775</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated readme to include information on the Proxy.php being used.">
+      <created>1400530537009</created>
+      <updated>1400530537009</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Moved the service info and logout buttons next to the service. Search button is now separate from the search box.  Buttons changed color to dark blue.&#10;https://tracker.nci.nih.gov/browse/LEXEVSCTS2-14&#10;https://tracker.nci.nih.gov/browse/LEXEVSCTS2-15&#10;">
+      <created>1400594262224</created>
+      <updated>1400594262224</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated help link at the bottom of the page.&#10;">
+      <created>1400617798464</created>
+      <updated>1400617798464</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1917" y="-96" width="1348" height="824" extended-state="0" />
+    <frame x="-1919" y="-100" width="1338" height="1199" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297342" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -692,7 +688,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252841" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -700,11 +696,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25576037" sideWeight="0.67471594" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25773993" sideWeight="0.67132217" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -750,7 +747,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added check for cts2 version 1.0.  Need to get vs entries differently for now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated help link at the bottom of the page.&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -776,52 +773,60 @@
     <MESSAGE value="Added JSONP library." />
     <MESSAGE value="Updated help text in search and updated LexEVS URL to informatics." />
     <MESSAGE value="Added check for cts2 version 1.0.  Need to get vs entries differently for now." />
+    <MESSAGE value="Updated readme to include information on the Proxy.php being used." />
+    <MESSAGE value="Moved the service info and logout buttons next to the service. Search button is now separate from the search box.  Buttons changed color to dark blue.&#10;https://tracker.nci.nih.gov/browse/LEXEVSCTS2-14&#10;https://tracker.nci.nih.gov/browse/LEXEVSCTS2-15&#10;" />
+    <MESSAGE value="Updated help link at the bottom of the page.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/app/views/about.js">
+    <entry file="file://$PROJECT_DIR$/tpl/ValueSetsTableView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="840" selection-end="840" vertical-scroll-proportion="0.29933482">
+        <state line="14" column="34" selection-start="487" selection-end="487" vertical-scroll-proportion="0.2605459">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="30" column="22" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.57544756">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services.json">
+    <entry file="file://$PROJECT_DIR$/js/app/valueSetEntries.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="103" selection-start="462" selection-end="462" vertical-scroll-proportion="0.07614213">
+        <state line="132" column="71" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.81031126">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/valueSets.js">
+    <entry file="file://$PROJECT_DIR$/js/app/cts2ServiceInformation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="9" selection-start="3622" selection-end="3622" vertical-scroll-proportion="1.7690783">
+        <state line="15" column="44" selection-start="630" selection-end="630" vertical-scroll-proportion="0.01459144">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/utility.js">
+    <entry file="file://$PROJECT_DIR$/js/app/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="64" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="14" column="13" selection-start="390" selection-end="390" vertical-scroll-proportion="0.20428015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="54" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.8715509">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,65 +835,58 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
+    <entry file="file://$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="93" selection-start="1952" selection-end="2256" vertical-scroll-proportion="-9.807693">
+        <state line="8" column="3" selection-start="295" selection-end="295" vertical-scroll-proportion="0.11684518">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/cts2ServiceInformation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="630" selection-end="630" vertical-scroll-proportion="-8.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ValueSetsTableView.html">
+    <entry file="file://$PROJECT_DIR$/js/app/views/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/ValueSetEntriesTableView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="41" selection-start="3699" selection-end="3699" vertical-scroll-proportion="-25.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="54" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-19.307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/authentication.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="46" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.0">
+        <state line="16" column="18" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/valueSetEntries.js">
+    <entry file="file://$PROJECT_DIR$/tpl/ShellView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="71" selection-start="3879" selection-end="3879" vertical-scroll-proportion="0.0">
+        <state line="31" column="11" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-19.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/AboutView.html">
+    <entry file="file://$PROJECT_DIR$/tpl/MainView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="1595" selection-end="1595" vertical-scroll-proportion="-16.583334">
+        <state line="16" column="42" selection-start="554" selection-end="554" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/js/app/views/shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="89" selection-start="957" selection-end="957" vertical-scroll-proportion="0.5742726">
+        <state line="76" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="-43.846153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/views/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="63" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-18.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="20" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.75642246">
           <folding />
         </state>
       </provider>

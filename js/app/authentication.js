@@ -28,8 +28,9 @@ function authenticateUser() {
                     App.selectedServiceVersion =  "";
                     App.selectedServiceAuthentication = "";
 
-                    // disable the service info button
-                    $('#cts2ServiceInfo').prop('disabled',true);
+                    // disable buttons
+                    $('#cts2ServiceInfo').prop('disabled', true);
+                    $('#cts2SearchButton').prop('disabled', true);
                 }
             }
         }
@@ -78,6 +79,10 @@ function doLogout(){
 
     // reset cts2 service pulldown
     $("#cts2Services").val("");
+
+    // disable buttons
+    $('#cts2ServiceInfo').prop('disabled', true);
+    $('#cts2SearchButton').prop('disabled', true);
 
     // clear the tables
     renderEmptyValueSetTable();

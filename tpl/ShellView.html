@@ -18,7 +18,14 @@
 				</li>
 			</ul>
 
-            <p class="navbar-text navbar-right"> <a href="http://informatics.mayo.edu/cts2/index.php/Main_Page" target="_blank"><img src="img/CTS2.jpeg" alt="CTS2 Logo" height="25" width="50"></a></p>
+            <form class="navbar-form navbar-right" role="search" id="serviceForm">
+                <div class="form-group">
+                    <select size="0" class="form-control input-sm" id="cts2Services"></select>
+                </div>
+                <button type="button" id="cts2ServiceInfo" class="btn btn-primary btn-sm">Service Info</button>
+                <button type="button" id="logoutButton" class="btn btn-primary btn-sm">Log Out</button>
+            </form>
+
 
         </div>
 		<!--/.navbar-collapse -->
@@ -32,8 +39,9 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
         <div class="navbar-text">
-            For questions or issues regarding this site, post an issue <a href="https://github.com/lexevs/lexevs-cvsv/issues" target="_blank">here</a>.
+            For questions or issues regarding this site, submit an issue <a href="https://github.com/lexevs/lexevs-cvsv/issues" target="_blank">here</a>.
         </div>
+        <p class="navbar-text navbar-right"> <a href="http://informatics.mayo.edu/cts2/index.php/Main_Page" target="_blank"><img src="img/CTS2.jpeg" alt="CTS2 Logo" height="25" width="50"></a></p>
     </div>
 </div>
 

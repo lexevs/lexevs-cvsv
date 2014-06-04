@@ -42,3 +42,19 @@ function updateUrlToExternal(url) {
 
     return url;
 }
+
+function setSearchEnablement(e) {
+
+    var validSearchString = $('#cts2SearchText').val().length >= 3;
+    var valideService = $("#cts2Services").val().length >0;
+
+    if (validSearchString && valideService) {
+
+        $('#cts2SearchButton').prop('disabled', false);
+        return true;
+    }
+    else {
+        $('#cts2SearchButton').prop('disabled', true);
+        return false;
+    }
+}

@@ -1,34 +1,20 @@
 <div class="container">
 
-    <div class="row" class="col-md-12">
+    <div class="row col-md-12">
         <br>
-        <div class="well well-sm">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5>Service</h5>
-                </div>
-                <div class="col-lg-3">
-                    <select size="0" class="form-control input-sm" id="cts2Services"></select>
-                </div>
-                <div class="col-lg-1">
-                    <button type="button" id="cts2ServiceInfo" class="btn btn-primary btn-sm">Service Info</button>
-                </div>
-                <div class="col-lg-1">
-                    <button type="button" id="logoutButton" class="btn btn-primary btn-sm">Log Out</button>
-                </div>
-                <div class="col-lg-5 form-group">
-                    <input type="text" id="cts2SearchText" placeholder="Search on Value Set Name" class="form-control input-sm">
-                    <p class="help-block">Search on Value Set Name (minimum of 3 characters)</p>
-                </div>
-                <div class="col-lg-1">
-                    <button type="button" id="cts2SearchButton" class="btn btn-primary btn-sm">Search</button>
-                </div>
-            </div>
-
-        </div>
     </div>
 
-    <div class="row" class="col-md-12">
+    <div class="row">
+        <div class="col-lg-5 form-group">
+            <input type="text" id="cts2SearchText" placeholder="Search on Value Set Name" class="form-control input-sm">
+            <p class="help-block">Search on Value Set Name (minimum of 3 characters)</p>
+        </div>
+        <div class="col-lg-1">
+            <button type="button" id="cts2SearchButton" class="btn btn-primary btn-sm">Search</button>
+        </div>
+     </div>
+
+    <div class="row">
         <!-- Div for value sets table -->
         <div class="col-md-6" id="valueSetsDiv"/>
 
