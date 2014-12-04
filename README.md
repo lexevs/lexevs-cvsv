@@ -21,6 +21,17 @@ This viewer can connect to CTS2 services to retrieve value sets if the services 
     - Functional Profile: Query
     - Functional Profile: Resolution
 
+For performance reasons, the value set viewer has put in place the following limitations:
+
+- Searching for value sets is limited to returning the first 2000.
+- Retrieving value set entries for a selected value set is limited to the first 500.
+- Downloading value set entries for a selected value set is limited to the first 2000.
+
+Known issues:
+
+- Mayo (TLAMP HL7) service does not return value set entries for a selected value set.
+- NLM (VSAC) service is encountering a login failure and will not allow the user to continue.
+
 The NLM CTS2 service requires a UMLS UTS Username/Password.
 
 This client has been tested on Internet Explorer 11, Firefox 28, Safari 6, and Chrome 34.
